@@ -27,6 +27,7 @@ header {
 
 h1 {
   font-size: 5rem;
+  min-height: 12rem;
   padding: 1rem;
   font-family: "Tungsten Cond A", "Tungsten Cond B";
   font-style: normal;
