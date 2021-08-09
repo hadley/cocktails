@@ -21,3 +21,5 @@ Imports:
     rlang,
     whisker,
     withr
+URL: https://github.com/hadley/cocktails
+BugReports: https://github.com/hadley/cocktails/issues
