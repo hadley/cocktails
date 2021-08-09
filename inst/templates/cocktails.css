@@ -20,6 +20,19 @@ body {
   font-weight: 500;
 }
 
+header {
+  background-color: #111;
+  color: #eee;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 1rem;
+  font-family: "Tungsten Cond A", "Tungsten Cond B";
+  font-style: normal;
+  font-weight: 300;
+}
+
 h2 {
   font-size: 3rem;
   padding-bottom: 0.25rem;

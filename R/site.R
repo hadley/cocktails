@@ -23,7 +23,8 @@ build_site <- function(dir = "docs") {
     filtered <- cocktails %>% keep(~ tag %in% .x$tags)
     write_page(filtered, file.path(dir, paste0("tag-", slug(tag), ".html")),
       tags = setdiff(tags, tag),
-      ingredients = ingredients
+      ingredients = ingredients,
+      title = paste0("Tag: ", tag)
     )
   }
 
@@ -32,7 +33,8 @@ build_site <- function(dir = "docs") {
     filtered <- cocktails %>% keep(~ ingredient %in% ingredients(.x))
     write_page(filtered, file.path(dir, paste0("ingredient-", slug(ingredient), ".html")),
       tags = tags,
-      ingredients = setdiff(ingredients, ingredient)
+      ingredients = setdiff(ingredients, ingredient),
+      title = paste0("Ingredient: ", ingredient)
     )
   }
 }
@@ -42,7 +44,10 @@ write_page <- function(x, path, title = "Cocktails", tags = character(), ingredi
 
   titles <- map_chr(x, ~ .x$title)
   cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
-  body <- html$div(class = "cocktails", cocktails)
+  heading <- html$header(
+    html$h1(title)
+  )
+  body <- html$div(class = "cocktails", heading, cocktails)
 
   rendered <- whisker::whisker.render(template, list(title = title, body = body))
   writeLines(rendered, path)
