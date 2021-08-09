@@ -1,11 +1,13 @@
 preview_site <- function() {
   build_site()
-  servr::httw(system.file("docs", package = "cocktails"))
+  if (is.null(the$server)) {
+    the$server <- servr::httw(system.file("docs", package = "cocktails"))
+  }
 }
 
 build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
-  file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir)
+  file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir, overwrite = TRUE)
 
   tags <- at_least(unlist(map(cocktails, ~ .x$tags)), 2)
   ingredients <- at_least(unlist(map(cocktails, ingredients)), 2)
