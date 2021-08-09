@@ -1,5 +1,11 @@
-html_site <- function(dir = "docs") {
+preview_site <- function() {
+  build_site()
+  servr::httw(system.file("docs", package = "cocktails"))
+}
+
+build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
+  file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir)
 
   tags <- at_least(unlist(map(cocktails, ~ .x$tags)), 2)
   ingredients <- at_least(unlist(map(cocktails, ingredients)), 2)
@@ -27,10 +33,6 @@ html_site <- function(dir = "docs") {
       ingredients = setdiff(ingredients, ingredient)
     )
   }
-}
-
-preview_site <- function() {
-  servr::httw(system.file("docs", package = "cocktails"))
 }
 
 at_least <- function(x, n) {
