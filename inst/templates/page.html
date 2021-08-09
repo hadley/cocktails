@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 /* Remove default margin */
-body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd, ul {
   margin: 0;
 }
 
@@ -17,13 +17,19 @@ body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
 
 body {
   font-size: 20px;
+  line-height: 1.3;
   background-color: #eee;
   color: #111;
 }
 
 h1 {
   font-size: 1.5rem;
+  padding-bottom: 0.25rem;
   margin-bottom: 0.25rem;
+  border-bottom: 5px solid #eee;
+}
+p, ul {
+  margin: 0.5rem 0;
 }
 h1 a:any-link {
   text-decoration: none;
@@ -36,19 +42,25 @@ a:any-link {
 
 .cocktails {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 40ch);
+  grid-template-columns: repeat(auto-fill, minmax(calc(40ch - 2rem), 1fr));
+
   gap: 1rem;
   margin: 1rem;
 }
 
 .cocktail {
   background-color: #fff;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
 }
 
 .cocktail:target {
   background: yellow;
 }
+
+.source {
+  font-size: 0.9rem;
+}
+
 
 ul {
   list-style: none;
