@@ -143,7 +143,7 @@
   ingredients:
   - [1, rye]
   - [1, cognac]
-  - [0.5, banana liquer]
+  - [0.5, banana liqueur]
   - [0.10, simple syrup]
   - 1 dash Angostura bitters
 
@@ -275,7 +275,7 @@
 - title: Cynar flip
   tags: [flip]
   ingredients:
-  - [2.5 cynar]
+  - [2.5, Cynar]
   - 1 egg
 
 - title: Cynar sour
@@ -286,3 +286,49 @@
   - [0.25, cherry liqueur]
   - [0.25, simple syrup]
   - 1 egg white
+
+- title: Coffeed negroni
+  tags: [negroni]
+  ingredients:
+  - [1, rum]
+  - [1, sweet vermouth]
+  - [0.75, campari]
+  - [0.25, coffee liqueur]
+
+- title: Comte de Sureau
+  ingredients:
+  - [1.5, rum, cachaça]
+  - [0.75, aperol]
+  - [0.5, elderflower liqueur]
+  - lemon peel
+
+- title: Corpse reminder
+  tags: [corpse reviver]
+  ingredients:
+  - [1, Campari]
+  - [1, ginger liqueur]
+  - [1, orange liqueur, Contreau]
+  - [1, lemon juice]
+  - 2 dashes Peychauds
+
+- title: Daiquiri
+  tags: [sour]
+  ingredients:
+  - [2.5, rum]
+  - [1, lime]
+  - [0.75, simple syrup]
+
+- title: First growth
+  ingredients:
+  - [2, gin]
+  - [1, pineapple juice]
+  - [0.5, elderflower liqueur]
+  - 3-4 sage leaves
+
+- title: Floor on the ceiling
+  ingredients:
+  - [1, rye]
+  - [1, sherry, pedro ximenez]
+  - [0.75, cocchi americano]
+  - [0.25, Cynar]
+  - flamed orange twist
