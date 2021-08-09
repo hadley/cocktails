@@ -1,7 +1,7 @@
 preview_site <- function() {
   build_site()
-  if (is.null(the$server)) {
-    the$server <- servr::httw(system.file("docs", package = "cocktails"))
+  if (is.null(getOption("cocktails_server"))) {
+    options(cocktails_server = servr::httw(system.file("docs", package = "cocktails")))
   }
 }
 
