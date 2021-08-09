@@ -19,4 +19,5 @@ Imports:
     htmltools,
     magrittr,
     rlang,
+    whisker,
     withr

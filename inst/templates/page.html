@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>{{title}}</title>
+<style>
+/* Box sizing rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+/* ------------------------------------- */
+
+body {
+  font-size: 20px;
+  background-color: #eee;
+  color: #111;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+h1 a:any-link {
+  text-decoration: none;
+}
+
+a:any-link {
+  color: #111;
+  text-decoration-color: #666;
+}
+
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 40ch);
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.cocktail {
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+.cocktail:target {
+  background: yellow;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+</style>
+</head>
+
+<body>
+{{{body}}}
+</body>
+</html>

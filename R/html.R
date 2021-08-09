@@ -1,21 +1,77 @@
-html_cocktail <- function(x) {
-  html$div(
+html_site <- function(dir = "~/desktop/test") {
+  dir.create(dir, showWarnings = FALSE)
+
+  tags <- at_least(unlist(map(cocktails, ~ .x$tags)), 2)
+  ingredients <- at_least(unlist(map(cocktails, ingredients)), 2)
+
+  # Home page (all cocktails for now)
+  write_page(cocktails, file.path(dir, "index.html"),
+    tags = tags,
+    ingredients = ingredients
+  )
+
+  # Tag pages
+  for (tag in tags) {
+    filtered <- cocktails %>% keep(~ tag %in% .x$tags)
+    write_page(filtered, file.path(dir, paste0("tag-", slug(tag), ".html")),
+      tags = setdiff(tags, tag),
+      ingredients = ingredients
+    )
+  }
+
+  # Ingredient pages
+  for (ingredient in ingredients) {
+    filtered <- cocktails %>% keep(~ ingredient %in% ingredients(.x))
+    write_page(filtered, file.path(dir, paste0("ingredient-", slug(ingredient), ".html")),
+      tags = tags,
+      ingredients = setdiff(ingredients, ingredient)
+    )
+  }
+
+}
+
+at_least <- function(x, n) {
+  tb <- table(x)
+  names(tb)[tb >= n]
+}
+
+
+ingredients <- function(x) {
+  x$ingredients %>%
+    keep(~ is.list(.x)) %>%
+    map_chr(~ .x[[2]])
+}
+
+write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character()) {
+  template <- readLines(system.file("templates/page.html", package = "cocktails"))
+
+  titles <- map_chr(x, ~ .x$title)
+  cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
+  body <- html$div(class = "cocktails", cocktails)
+
+  rendered <- whisker::whisker.render(template, list(title = title, body = body))
+  writeLines(rendered, path)
+  invisible(path)
+}
+
+html_cocktail <- function(x, tags = character(), ingredients = character()) {
+  html$article(
     class = "cocktail",
     id = slug(x$title),
 
     # bar_ingredients(x$ingredients),
-    html$h1(x$title),
-    html_tags(x$tags),
-    html_ingredients(x$ingredients),
-    #
+    html$h1(html$a(x$title, href = paste0("#", slug(x$title)))),
+    html_tags(x$tags, tags),
+    html_ingredients(x$ingredients, ingredients),
+
     if (!is.null(x$notes)) html$p(class = "notes", x$notes),
     html_source(x$source),
   )
 
 }
-html_ingredients <- function(x) {
+html_ingredients <- function(x, ingredients) {
   x %>%
-    map(html_ingredient) %>%
+    map(html_ingredient, ingredients) %>%
     map(html$li) %>%
     html$ul(.)
 }
@@ -30,26 +86,12 @@ html_source <- function(x) {
   }
 }
 
-html_ingredient <- function(x) {
+html_ingredient <- function(x, ingredients) {
   if (is_string(x)) {
     html_escape(x)
   } else if (is.list(x) && length(x) %in% c(2, 3)) {
     quantity <- html_quantity(x[[1]])
-    primary <- link_ingredient(x[[2]])
-    modifier <- if (length(x) == 3) html_escape(x[[3]])
-
-    HTML(paste0(quantity, " oz ", primary, if (!is.null(modifier)) ", ", modifier))
-  } else {
-    abort(c("Ill-formed ingredient", capture.output(str(x))))
-  }
-}
-
-html_ingredient <- function(x) {
-  if (is_string(x)) {
-    html_escape(x)
-  } else if (is.list(x) && length(x) %in% c(2, 3)) {
-    quantity <- html_quantity(x[[1]])
-    primary <- link_page(x[[2]], "ingredient")
+    primary <- link_page(x[[2]], "ingredient", ingredients)
     modifier <- if (length(x) == 3) html_escape(x[[3]])
 
     HTML(paste0(quantity, " oz ", primary, if (!is.null(modifier)) ", ", modifier))
@@ -58,18 +100,22 @@ html_ingredient <- function(x) {
   }
 }
 
-html_tags <- function(x) {
+html_tags <- function(x, tags) {
   if (is.null(x)) return()
   if (!is.character(x)) {
     stop_invalid(x)
   }
-  links <- map(x, link_page, prefix = "tag")
+  links <- map(x, link_page, prefix = "tag", valid = tags)
   block <- HTML("[", paste0(map_chr(links, as.character), collapse = ", "), "]")
   html$p(class = "tags", block)
 }
 
-link_page <- function(x, prefix) {
-  html$a(href = paste0("/", prefix, "/", slug(x)), x)
+link_page <- function(x, prefix, valid) {
+  if (x %in% valid) {
+    html$a(href = paste0(prefix, "-", slug(x), ".html"), x)
+  } else {
+    html_escape(x)
+  }
 }
 
 html_quantity <- function(x) {
