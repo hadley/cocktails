@@ -1,0 +1,83 @@
+/* Box sizing rules */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd, ul {
+  margin: 0;
+}
+
+/* ------------------------------------- */
+
+body {
+  font-size: 20px;
+  line-height: 1.3;
+  background-color: #eee;
+  color: #111;
+
+  font-family: "Archer A", "Archer B";
+  font-style: normal;
+  font-weight: 500;
+}
+
+header {
+  background-color: #111;
+  color: #eee;
+}
+
+h1 {
+  font-size: 5rem;
+  padding: 1rem;
+  font-family: "Tungsten Cond A", "Tungsten Cond B";
+  font-style: normal;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 5px solid #eee;
+
+  font-family: "Tungsten Cond A", "Tungsten Cond B";
+  font-style: normal;
+  font-weight: 300;
+}
+h2 a:any-link {
+  text-decoration: none;
+}
+p, ul {
+  margin: 0.5rem 0;
+}
+
+a:any-link {
+  color: #111;
+  text-decoration-color: #666;
+}
+
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(40ch - 2rem), 1fr));
+
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.cocktail {
+  background-color: #fff;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.cocktail:target {
+  background: yellow;
+}
+
+.source {
+  font-size: 0.9rem;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
