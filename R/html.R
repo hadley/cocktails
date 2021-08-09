@@ -39,7 +39,8 @@ at_least <- function(x, n) {
 ingredients <- function(x) {
   x$ingredients %>%
     keep(~ is.list(.x)) %>%
-    map_chr(~ .x[[2]])
+    map_chr(~ .x[[2]]) %>%
+    unique()
 }
 
 write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character()) {
