@@ -94,7 +94,7 @@ html_ingredient <- function(x, ingredients) {
     primary <- link_page(x[[2]], "ingredient", ingredients)
     modifier <- if (length(x) == 3) html_escape(x[[3]])
 
-    HTML(paste0(quantity, " oz ", primary, if (!is.null(modifier)) ", ", modifier))
+    HTML(paste0(quantity, " ", primary, if (!is.null(modifier)) ", ", modifier))
   } else {
     stop_invalid(x)
   }
@@ -122,6 +122,10 @@ html_quantity <- function(x) {
   int <- as.integer(x)
   dec <- sprintf("%.2f", x - int)
 
+  if (int == 0 && dec == "0.10") {
+    return("1 bar spoon")
+  }
+
   frac <- switch(dec,
     "0.25" = "\u00bc",
     "0.50" = "\u00bd",
@@ -129,12 +133,12 @@ html_quantity <- function(x) {
     NULL
   )
   if (is.null(frac)) {
-    as.character(x)
+    paste0(x, " oz")
   } else {
     if (int > 0) {
-      paste0(int, frac)
+      paste0(int, frac, " oz")
     } else {
-      frac
+      paste0(frac, " oz")
     }
   }
 }
