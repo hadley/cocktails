@@ -72,6 +72,7 @@
   - 3 cherries
 
 - title: A-go flip
+  tags: [flip]
   ingredients:
   - [0.75, angostura bitters]
   - [0.5, sherry, pedro ximinez]
@@ -86,7 +87,7 @@
   - [0.5, lemon juice]
   - [0.5, simple syrup]
   - [0.25, violet liqueur]
-  - angostura bitters
+  - garnish with angostura bitters
 
 - title: Across 110th street
   tags: [manhattan]
@@ -118,7 +119,7 @@
   - [1.5, rye]
   - [0.75, dry vermouth]
   - [0.75, Campari]
-  - [0.25, chocolate liqueur]
+  - [0.25, creme de cacao]
   - lemon peel
 
 - title: Brown mountain lights
@@ -232,3 +233,56 @@
   - [0.75, Swedish punsch]
   - [0.5, Cynar]
   - orange peel
+
+- title: Colonel Carpano
+  ingredients:
+  - [1.5, Cynar]
+  - [1.5, bourbon]
+  - [0.75, sweet vermouth]
+  - 2 dashes Peychauds
+  - orange twist
+
+- title: Campari Alexander
+  ingredients:
+  - [2, Campari]
+  - [1, creme de cacao]
+  - [1, cream]
+
+- title: Campari sour
+  tags: [sour]
+  ingredients:
+  - [1.5, Campari]
+  - [1, lemon juice]
+  - [0.5, simple syrup]
+  - 1 egg white
+  - garnish with orange bitters
+
+- title: Clover club
+  tags: [sour]
+  ingredients:
+  - [2, gin]
+  - [1, grenadine]
+  - [0.75, lemon juice]
+  - 1 egg white
+
+- title: Cynar Toronto
+  ingredients:
+  - [2, rye]
+  - [0.75, Cynar]
+  - [0.1, simple syrup]
+  - 2 dashes Angostura
+
+- title: Cynar flip
+  tags: [flip]
+  ingredients:
+  - [2.5 cynar]
+  - 1 egg
+
+- title: Cynar sour
+  tags: [sour]
+  ingredients:
+  - [2, Cynar]
+  - [1, lemon juice]
+  - [0.25, cherry liqueur]
+  - [0.25, simple syrup]
+  - 1 egg white
