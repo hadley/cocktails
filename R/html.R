@@ -4,7 +4,7 @@ html_cocktail <- function(x, tags = character(), ingredients = character()) {
     id = slug(x$title),
 
     # bar_ingredients(x$ingredients),
-    html$h1(html$a(x$title, href = paste0("#", slug(x$title)))),
+    html$h2(html$a(x$title, href = paste0("#", slug(x$title)))),
     html_tags(x$tags, tags),
     html_ingredients(x$ingredients, ingredients),
 
