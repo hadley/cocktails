@@ -1,4 +1,4 @@
-html_site <- function(dir = "~/desktop/test") {
+html_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
 
   tags <- at_least(unlist(map(cocktails, ~ .x$tags)), 2)
@@ -27,7 +27,10 @@ html_site <- function(dir = "~/desktop/test") {
       ingredients = setdiff(ingredients, ingredient)
     )
   }
+}
 
+preview_site <- function() {
+  servr::httw(system.file("docs", package = "cocktails"))
 }
 
 at_least <- function(x, n) {
