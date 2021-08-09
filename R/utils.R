@@ -18,3 +18,8 @@ stop_invalid <- function(x) {
 }
 html_escape <- function(x) htmltools::htmlEscape(x)
 HTML <- function(...) htmltools::HTML(paste0(...))
+
+first_upper <- function(x) {
+  substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+  x
+}

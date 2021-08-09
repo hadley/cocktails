@@ -24,7 +24,7 @@ build_site <- function(dir = "docs") {
     write_page(filtered, file.path(dir, paste0("tag-", slug(tag), ".html")),
       tags = setdiff(tags, tag),
       ingredients = ingredients,
-      title = paste0("Tag: ", tag)
+      title = first_upper(tag)
     )
   }
 
@@ -34,7 +34,7 @@ build_site <- function(dir = "docs") {
     write_page(filtered, file.path(dir, paste0("ingredient-", slug(ingredient), ".html")),
       tags = tags,
       ingredients = setdiff(ingredients, ingredient),
-      title = paste0("Ingredient: ", ingredient)
+      title = first_upper(ingredient)
     )
   }
 }
