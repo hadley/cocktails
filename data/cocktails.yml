@@ -60,3 +60,175 @@
   - [1, vodka]
   - [1, cream]
   source: Double trouble
+
+- title: Accoutrement
+  tags: [shaken]
+  ingredients:
+  - [2, calvados]
+  - [0.75, strega]
+  - [0.5, orange liqueur]
+  - [0.75, lemon juice]
+  - 2 dashes Peychaud's
+  - 3 cherries
+
+- title: A-go flip
+  ingredients:
+  - [0.75, angostura bitters]
+  - [0.5, sherry, pedro ximinez]
+  - [0.5, rum]
+  - [0.5, simple syrup, demerera]
+  - 1 egg
+
+- title: Aviation
+  ingredients:
+  - [2, gin]
+  - [0.75, cherry liqueur]
+  - [0.5, lemon juice]
+  - [0.5, simple syrup]
+  - [0.25, violet liqueur]
+  - angostura bitters
+
+- title: Across 110th street
+  tags: [manhattan]
+  ingredients:
+  - [2, rum]
+  - [1, vermouth]
+  - [0.25, falernu]
+  - 2 dashes bitters
+
+- title: Angel's share
+  ingredients:
+  - [1.5, bourbon]
+  - [0.5, ramazotti]
+  - [0.25, blackcurrant liqueur]
+  - 1 dash orange bitters
+
+- title: Art of the choke
+  ingredients:
+  - [1.25, Cynar]
+  - [1, rum, light]
+  - [0.25, green Chartreuse]
+  - [0.125, simple syrup]
+  - [0.125, lime juice]
+  - 1 dash Angostura bitters
+  - 2 sprigs of mint
+
+- title: All in
+  ingredients:
+  - [1.5, rye]
+  - [0.75, dry vermouth]
+  - [0.75, Campari]
+  - [0.25, chocolate liqueur]
+  - lemon peel
+
+- title: Brown mountain lights
+  tags: [sour]
+  ingredients:
+  - [2, bourbon]
+  - [0.75, maple syrup]
+  - [1, lemon juice]
+  - [0.5, pear liqueur]
+  - egg white
+
+- title: Bon vivants
+  ingredients:
+  - [1.5, orange liqueur, royal combier]
+  - [0.75, fernet]
+  - [1, lemon juice]
+  - [0.5, ginger syrup]
+
+- title: Bananarac
+  tag: [sazerac]
+  ingredients:
+  - [1, rye]
+  - [1, cognac]
+  - [0.5, banana liquer]
+  - [0.10, simple syrup]
+  - 1 dash Angostura bitters
+
+- title: Blood orange margarita
+  tag: [margarita]
+  ingredients:
+  - [2, tequila]
+  - [1.5, blood orange juice]
+  - [0.5, lime juice]
+  - [0.25, grapefruit bitters]
+
+- title: Boulevard de Rêves
+  tags: [negroni]
+  ingredients:
+  - [1.5, bourbon]
+  - [1, sweet vermouth]
+  - [1, campari]
+  - [0.25, rum, Smith and Cross]
+
+- title: Black honey
+  tags: [stirred]
+  ingredients:
+  - [2, Cynar]
+  - [1, rum, Smith and Cross]
+  - [0.75, cinnamon syrup]
+  - [0.5, lime juice]
+
+- title: Better orange
+  ingredients:
+  - [1, ramazotti]
+  - [1, nonino amaro]
+  - [0.75, orange liqueur, Grand Marnier]
+  - [0.10, fernet]
+
+- title: BBD
+  ingredients:
+  - [2, rum, blackstrap]
+  - [1, lemon juice]
+  - [0.75, simple syrup]
+  - [0.5, coffee liqueur]
+
+- title: Bitter honey bee
+  ingredients:
+  - [2, Cynar]
+  - [0.5, honey syrup]
+  - [0.5, lemon juice]
+  - 1 egg white
+  - bitters
+
+- title: Bramble
+  ingredients:
+  - [1.5, gin]
+  - [0.75, lemon]
+  - [0.5, simple syrup]
+  - crushed ice
+  - [0.75, raspberry liqueur]
+  notes: float liqueur
+
+- title: Brown bomber
+  ingredients:
+  - [2, rye]
+  - [0.75, Lillet blanc]
+  - [0.5, Suze]
+
+- title: Breaking dawn
+  tags: [negroni]
+  ingredients:
+  - [1, bourbon]
+  - [1, coffee liqueur]
+  - [1, sweet vermouth]
+  - a cherry
+
+- title: Bachelor
+  ingredients:
+  - [1, rum, dark]
+  - [1, meletti]
+  - [0.25, absinthe]
+  - dash orange bitters
+  - dash Angostura bitters
+  notes: serve with ice
+
+- title: Barefoot in the dark
+  ingredients:
+  - [1, scotch, blended]
+  - [0.25, scotch, peaty]
+  - [0.75, Campari]
+  - [0.75, Swedish punsch]
+  - [0.5, Cynar]
+  - orange peel
