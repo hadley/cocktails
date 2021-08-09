@@ -1,12 +1,12 @@
 Package: cocktails
-Title: What the Package Does (One Line, Title Case)
+Title: Hadley's cocktail book
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Hadley",
              family = "Wickham",
              role = c("aut", "cre"),
              email = "hadley@rstudio.com")
-Description: What the package does (one paragraph).
+Description: Hadley's cocktails and the R code needed to turn them into a website.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
