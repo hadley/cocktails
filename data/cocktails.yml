@@ -1,0 +1,62 @@
+- title: Yellow parrot
+  tags: [strong]
+  ingredients:
+  - [1, absinthe]
+  - [1, yellow Chartreuse]
+  - [1, apricot liqueur]
+  - lemon twist
+  source: https://punchdrink.com/recipes/yellow-parrot/
+  notes: serve with ice
+
+- title: Harry's matador
+  tags: [strong]
+  ingredients:
+  - [2, tequila, reposodo]
+  - [0.75, blanc vermouth]
+  - [0.25, orange liqueur, Grand Marnier]
+  - 3 dashes orange bitters
+  - grapefruit peel
+  source: https://punchdrink.com/recipes/harrys-matador
+
+- title: Americano Perfecto
+  tags: [light, bitter, Americano]
+  ingredients:
+  - [1.5, Campari]
+  - [1.5, sweet vermouth]
+  - [4, beer, pilsner]
+  notes: "original uses split vermouth: Dolin rouge + Carpano Antica"
+  source: https://punchdrink.com/recipes/americano-perfecto
+
+- title: La Sirena Clandestina's amaro cocktail
+  tags: [bitter]
+  ingredients:
+  - [1.5, Cynar]
+  - [1, nocino]
+  - [0.5, cachaca, barrel aged]
+  source: https://imbibemagazine.com/recipe/la-sirena-clandestinas-amaro-cocktail/
+
+- title: Alicia Perry's corpse reviver no. 2
+  tags: [sour, corpse reviver]
+  ingredients:
+  - pastis rinse
+  - [1, gin, plymouth]
+  - [0.75, Lillet Blanc]
+  - [0.75, orange liqueur, Cointreau]
+  - [0.75, lemon]
+  - [0.25, simple]
+  source: https://punchdrink.com/recipes/alicia-perrys-corpse-reviver-no-2/
+
+- title: Bee's knees
+  tags: [sour, classic]
+  ingredients:
+  - [1, gin]
+  - [0.75, lemon]
+  - [0.75, honey syrup]
+
+- title: Betty Wizzle
+  ingredients:
+  - [2, espresso]
+  - [1, coffee liqueur]
+  - [1, vodka]
+  - [1, cream]
+  source: Double trouble
