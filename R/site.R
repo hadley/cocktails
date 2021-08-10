@@ -13,7 +13,7 @@ build_site <- function(dir = "docs") {
   ingredients <- sort(at_least(unlist(map(cocktails, ingredients)), 2))
 
   # Home page (all cocktails for now)
-  write_page(cocktails, file.path(dir, "index.html"),
+  write_home_page(cocktails, file.path(dir, "index.html"),
     tags = tags,
     ingredients = ingredients
   )
@@ -38,6 +38,33 @@ build_site <- function(dir = "docs") {
     )
   }
 }
+
+write_home_page <- function(x, path, tags = character(), ingredients = character()) {
+  heading <- html$header(
+    html$h1("Cocktails"),
+    html$p("Hadley's cocktail book")
+  )
+
+  nav <- html$nav(
+    html$p(
+      html$b("Browse by ingredient:"),
+      map(ingredients, link_page, prefix = "ingredient", valid = ingredients)
+    ),
+    html$p(
+      html$b("Browse by tag:"),
+      map(tags, link_page, prefix = "tag", valid = tags)
+    )
+  )
+
+  # Show 10 recently added cocktails
+  x <- tail(x, 10)
+  titles <- map_chr(x, ~ .x$title)
+  cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
+
+  blocks <- list(heading, nav, cocktails)
+  write_page_blocks(blocks, path, "Home")
+}
+
 
 write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character()) {
   heading <- html$header(

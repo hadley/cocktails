@@ -4,8 +4,10 @@ html_cocktail <- function(x, tags = character(), ingredients = character()) {
     id = slug(x$title),
 
     # bar_ingredients(x$ingredients),
-    html$h2(html$a(x$title, href = paste0("#", slug(x$title)))),
-    html_tags(x$tags, tags),
+    html$div(class = "title",
+      html$h2(html$a(x$title, href = paste0("#", slug(x$title)))),
+      html_tags(x$tags, tags)
+    ),
     html_ingredients(x$ingredients, ingredients),
 
     if (!is.null(x$notes)) html$p(class = "notes", x$notes),
@@ -50,7 +52,7 @@ html_tags <- function(x, tags) {
     stop_invalid(x)
   }
   links <- map(x, link_page, prefix = "tag", valid = tags)
-  block <- HTML("[", paste0(map_chr(links, as.character), collapse = ", "), "]")
+  block <- HTML(paste0(map_chr(links, as.character), collapse = ", "))
   html$p(class = "tags", block)
 }
 

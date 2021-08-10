@@ -1,3 +1,5 @@
+/* https://piccalil.li/blog/a-modern-css-reset/ ----------------------------- */
+
 /* Box sizing rules */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -6,8 +8,14 @@
 body, h1, h2, h3, h4, p, figure, blockquote, dl, dd, ul {
   margin: 0;
 }
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
 
-/* ------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
 
 body {
   font-size: 22px;
@@ -28,6 +36,20 @@ header {
 }
 header a:any-link {color: #eee;}
 
+nav {
+  background-color: #999;
+  padding: 1rem;
+}
+nav, .tags {
+  font-family: "Gotham XNarrow SSm A", "Gotham XNarrow SSm B";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+nav b {
+  font-weight: 500;
+}
+
 h1 {
   font-size: 5rem;
   font-family: "Tungsten Cond A", "Tungsten Cond B";
@@ -37,9 +59,6 @@ h1 {
 
 h2 {
   font-size: 3rem;
-  padding-bottom: 0.25rem;
-  margin-bottom: 0.25rem;
-  border-bottom: 5px solid #eee;
 
   font-family: "Tungsten Cond A", "Tungsten Cond B";
   font-style: normal;
@@ -48,6 +67,15 @@ h2 {
 h2 a:any-link {
   text-decoration: none;
 }
+.tags {
+  margin-top: 0;
+}
+.title {
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+  border-bottom: 5px solid #eee;
+}
+
 p, ul {
   margin: 0.5rem 0;
 }
@@ -59,10 +87,15 @@ a:any-link {
 
 .cocktails {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(calc(40ch - 2rem), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr));
 
   gap: 1rem;
   margin: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .cocktails {
+    grid-template-columns: 1fr;
+  }
 }
 
 .cocktail {
@@ -71,7 +104,14 @@ a:any-link {
 }
 
 .cocktail:target {
-  background: yellow;
+  background: linear-gradient(-300deg,
+    hsla(58,92%,80%),
+    hsla(58,92%,75%) 5%,
+    hsla(58,92%,95%) 80%
+  )
+}
+.cocktail:target .title {
+  border-bottom-color: #000;
 }
 
 .source {
