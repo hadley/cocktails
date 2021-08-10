@@ -1,5 +1,5 @@
 - title: Yellow parrot
-  tags: [strong]
+  tags: [adventurous]
   ingredients:
   - [1, absinthe]
   - [1, yellow Chartreuse]
@@ -9,7 +9,6 @@
   notes: serve with ice
 
 - title: Harry's matador
-  tags: [strong]
   ingredients:
   - [2, tequila, reposodo]
   - [0.75, blanc vermouth]
@@ -19,7 +18,7 @@
   source: https://punchdrink.com/recipes/harrys-matador
 
 - title: Americano Perfecto
-  tags: [light, bitter, Americano]
+  tags: [Americano]
   ingredients:
   - [1.5, Campari]
   - [1.5, sweet vermouth]
@@ -28,7 +27,6 @@
   source: https://punchdrink.com/recipes/americano-perfecto
 
 - title: La Sirena Clandestina's amaro cocktail
-  tags: [bitter]
   ingredients:
   - [1.5, Cynar]
   - [1, nocino]
@@ -36,7 +34,7 @@
   source: https://imbibemagazine.com/recipe/la-sirena-clandestinas-amaro-cocktail/
 
 - title: Alicia Perry's corpse reviver no. 2
-  tags: [sour, corpse reviver]
+  tags: [sour]
   ingredients:
   - pastis rinse
   - [1, gin, plymouth]
@@ -47,7 +45,7 @@
   source: https://punchdrink.com/recipes/alicia-perrys-corpse-reviver-no-2/
 
 - title: Bee's knees
-  tags: [sour, classic]
+  tags: [sour]
   ingredients:
   - [1, gin]
   - [0.75, lemon juice]
@@ -62,7 +60,6 @@
   source: Double trouble
 
 - title: Accoutrement
-  tags: [shaken]
   ingredients:
   - [2, calvados]
   - [0.75, strega]
@@ -81,6 +78,7 @@
   - 1 egg
 
 - title: Aviation
+  tags: [sour]
   ingredients:
   - [2, gin]
   - [0.75, maraschino]
@@ -98,6 +96,7 @@
   - 2 dashes bitters
 
 - title: Angel's share
+  tags: [manhattan]
   ingredients:
   - [1.5, bourbon]
   - [0.5, ramazotti]
@@ -116,12 +115,14 @@
   source: https://punchdrink.com/recipes/the-art-of-choke/
 
 - title: All in
+  tags: [negroni]
   ingredients:
   - [1.5, rye]
   - [0.75, dry vermouth]
   - [0.75, Campari]
   - [0.25, creme de cacao]
   - lemon peel
+  source: https://punchdrink.com/recipes/all-in/
 
 - title: Brown mountain lights
   tags: [sour]
@@ -133,6 +134,7 @@
   - egg white
 
 - title: Bon vivants
+  tags: [sour]
   ingredients:
   - [1.5, orange liqueur, royal combier]
   - [0.75, fernet]
@@ -149,7 +151,7 @@
   - [1 dash, Angostura]
 
 - title: Blood orange margarita
-  tag: [margarita]
+  tag: [sour, margarita]
   ingredients:
   - [2, tequila]
   - [1.5, blood orange juice]
@@ -165,12 +167,12 @@
   - [0.25, rum, Smith and Cross]
 
 - title: Black honey
-  tags: [stirred]
   ingredients:
   - [2, Cynar]
   - [1, rum, Smith and Cross]
   - [0.75, cinnamon syrup]
   - [0.5, lime juice]
+  notes: stirred
 
 - title: Better orange
   ingredients:
@@ -180,6 +182,7 @@
   - [1 t, fernet]
 
 - title: BBD
+  tags: [sour, daiquiri]
   ingredients:
   - [2, rum, blackstrap]
   - [1, lemon juice]
@@ -187,6 +190,7 @@
   - [0.5, coffee liqueur]
 
 - title: Bitter honey bee
+  tags: [sour]
   ingredients:
   - [2, Cynar]
   - [0.5, honey syrup]
@@ -204,10 +208,12 @@
   notes: float liqueur
 
 - title: Brown bomber
+  tags: [negroni]
   ingredients:
   - [2, rye]
   - [0.75, Lillet blanc]
   - [0.5, Suze]
+  source: http://cocktailvirgin.blogspot.com/2012/07/brown-bomber.html
 
 - title: Breaking dawn
   tags: [negroni]
@@ -220,7 +226,7 @@
 - title: Bachelor
   ingredients:
   - [1, rum, dark]
-  - [1, meletti]
+  - [1, Meletti]
   - [0.25, absinthe]
   - [1 dash, orange bitters]
   - [1 dash, Angostura]
@@ -242,6 +248,7 @@
   - [0.75, sweet vermouth]
   - [2 dashes, Peychaud's]
   - orange twist
+  source: https://kindredcocktails.com/cocktail/colonel-carpano
 
 - title: Campari Alexander
   ingredients:
@@ -267,6 +274,7 @@
   - 1 egg white
 
 - title: Cynar Toronto
+  tags: [manhattan]
   ingredients:
   - [2, rye]
   - [0.75, Cynar]
@@ -297,14 +305,15 @@
   - [0.25, coffee liqueur]
 
 - title: Comte de Sureau
+  tags: [negroni]
   ingredients:
   - [1.5, rum, cachaça]
-  - [0.75, Aperol]
+  - [0.75, Campari]
   - [0.5, elderflower liqueur]
   - lemon peel
 
 - title: Corpse reminder
-  tags: [corpse reviver]
+  tags: [sour]
   ingredients:
   - [1, Campari]
   - [1, ginger liqueur]
@@ -359,13 +368,13 @@
   - lemon peel
 
 - title: Dandelo
-  tags: [spritz]
+  tags: [bubbles]
   ingredients:
   - [2, luxardo bitter bianco]
   - [0.5, lemon juice]
   - [0.5, simple syrup]
   - 3 cucumber slices
-  - prosecco
+  - champagne
 
 - title: Getaway
   tags: [sour, daiquiri]
@@ -391,7 +400,7 @@
   - [1, lime juice]
 
 - title: Hotel Nacional
-  tags: [daiquiri]
+  tags: [sour, daiquiri]
   ingredients:
   - 3 pineapple chunks
   - [0.75, lime juice]
@@ -437,6 +446,7 @@
   - 1 strawberry
 
 - title: Industry sour
+  tags: [adventurous]
   ingredients:
   - [1, absinthe, pernod]
   - [1, green Chartreuse]
@@ -452,6 +462,7 @@
   - [0.25, cherry syrup]
 
 - title: Last word
+  tags: [adventurous]
   ingredients:
   - [1, gin]
   - [1, lime juice]
@@ -535,7 +546,7 @@
   - [1 dash, celery bitters]
 
 - title: Million
-  tag: [daiquiri]
+  tag: [sour, daiquiri]
   ingredients:
   - [1.5, rum, Smith & Cross]
   - [0.75, lemon juice]
@@ -620,6 +631,7 @@
   source: https://punchdrink.com/recipes/rum-river-mystic/
 
 - title: Sawyer
+  tags: [sour]
   ingredients:
   - [2, gin]
   - [0.5, lime juice]
@@ -744,8 +756,9 @@
 - title: Un café va bené
   ingredients:
   - [1, espresso]
-  - [1, Cynar]
+  - [2, Cynar]
   - [0.75, creme de cassis]
+  source: https://kindredcocktails.com/cocktail/un-cafe-va-bene
 
 - title: Winter sazerac
   tags: [sazerac]
@@ -779,6 +792,7 @@
   - [4 dashes, Angostura]
 
 - title: Warning label
+  tags: [negroni]
   ingredients:
   - Campari rinse
   - [1, rum, overproof dark]
@@ -795,3 +809,16 @@
   - [1, sweet vermouth]
   - [0.5, Campari]
   - [0.5, banana liqueur, Giffard Banane du Bresil]
+
+- title: Kir royale
+  tag: [bubbles]
+  ingredients:
+  - [0.5, creme de cassis]
+  - champagne
+
+- title: Mezcaletti
+  ingredients:
+  - [1.5, mezcal]
+  - [1.5, Meleti]
+  - [2 dashes, orange bitters]
+  source: https://punchdrink.com/recipes/mezcaletti/
