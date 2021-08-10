@@ -41,7 +41,7 @@ body {
   }
 }
 
-header, nav {
+header, nav, .cocktail {
   padding: 0.75rem;
 }
 
@@ -107,17 +107,22 @@ p, ul {
 }
 
 a:any-link {
-  color: #111;
+  color: inherit;
   text-decoration-color: #ccc;
 }
 a:any-link:hover {text-decoration-color: red;}
 
-
-
 .cocktail {
   background-color: #fff;
-  padding: 0.5rem 0.5rem 1rem 0.5rem;
+  border: 1px solid white;
 }
+.cocktail:hover {
+  border-color: black;
+}
+.cocktail:hover .title {
+  border-bottom-color: black;
+}
+
 .cocktail:target {
   background: linear-gradient(-300deg,
     hsla(58,92%,80%),
