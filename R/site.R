@@ -42,7 +42,7 @@ build_site <- function(dir = "docs") {
 write_home_page <- function(x, path, tags = character(), ingredients = character()) {
   heading <- html$header(
     html$h1("Cocktails"),
-    html$p("Hadley's cocktail book")
+    html$p("Curated by Hadley Wickham")
   )
 
   nav <- html$nav(

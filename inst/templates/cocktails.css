@@ -110,7 +110,7 @@ a:any-link {
   color: inherit;
   text-decoration-color: #ccc;
 }
-a:any-link:hover {text-decoration-color: red;}
+a:any-link:hover {text-decoration-color: limegreen;}
 
 .cocktail {
   background-color: #fff;
@@ -120,7 +120,7 @@ a:any-link:hover {text-decoration-color: red;}
   border-color: black;
 }
 .cocktail:hover .title {
-  border-bottom-color: black;
+  border-bottom-color: limegreen;
 }
 
 .cocktail:target {
