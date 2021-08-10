@@ -33,7 +33,7 @@ html_source <- function(x) {
 html_ingredient <- function(x, ingredients) {
   if (is_string(x)) {
     html_escape(x)
-  } else if (is.list(x) && length(x) %in% c(2, 3)) {
+  } else if (length(x) %in% c(2, 3)) {
     quantity <- quantity(x[[1]])
     primary <- link_page(x[[2]], "ingredient", ingredients)
     modifier <- if (length(x) == 3) html_escape(x[[3]])

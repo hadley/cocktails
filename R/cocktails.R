@@ -1,17 +1,17 @@
 ingredients <- function(x) {
   x$ingredients %>%
-    keep(~ is.list(.x)) %>%
+    keep(~ length(.x) >= 2) %>%
     map_chr(~ .x[[2]]) %>%
     unique()
 }
 
 quantity <- function(x) {
+  if (is.character(x)) {
+    return(x)
+  }
+
   int <- as.integer(x)
   dec <- sprintf("%.2f", x - int)
-
-  if (int == 0 && dec == "0.10") {
-    return("1 bar spoon")
-  }
 
   frac <- switch(dec,
     "0.25" = "\u00bc",

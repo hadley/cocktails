@@ -68,13 +68,13 @@
   - [0.75, strega]
   - [0.5, orange liqueur]
   - [0.75, lemon juice]
-  - 2 dashes Peychaud's
+  - [2 dashes, Peychaud's]
   - 3 cherries
 
 - title: A-go flip
   tags: [flip]
   ingredients:
-  - [0.75, angostura bitters]
+  - [0.75, Angostura]
   - [0.5, sherry, pedro ximinez]
   - [0.5, rum]
   - [0.5, simple syrup, demerera]
@@ -109,10 +109,11 @@
   - [1.25, Cynar]
   - [1, rum, light]
   - [0.25, green Chartreuse]
-  - [0.125, simple syrup]
-  - [0.125, lime juice]
-  - 1 dash Angostura bitters
+  - [1 t, simple syrup, demerera]
+  - [1 t, lime juice]
+  - [1 dash, Angostura]
   - 2 sprigs of mint
+  source: https://punchdrink.com/recipes/the-art-of-choke/
 
 - title: All in
   ingredients:
@@ -144,8 +145,8 @@
   - [1, rye]
   - [1, cognac]
   - [0.5, banana liqueur]
-  - [0.10, simple syrup]
-  - 1 dash Angostura bitters
+  - [1 t, simple syrup]
+  - [1 dash, Angostura]
 
 - title: Blood orange margarita
   tag: [margarita]
@@ -176,7 +177,7 @@
   - [1, ramazotti]
   - [1, nonino amaro]
   - [0.75, orange liqueur, Grand Marnier]
-  - [0.10, fernet]
+  - [1 t, fernet]
 
 - title: BBD
   ingredients:
@@ -221,8 +222,8 @@
   - [1, rum, dark]
   - [1, meletti]
   - [0.25, absinthe]
-  - dash orange bitters
-  - dash Angostura bitters
+  - [1 dash, orange bitters]
+  - [1 dash, Angostura]
   notes: serve with ice
 
 - title: Barefoot in the dark
@@ -239,7 +240,7 @@
   - [1.5, Cynar]
   - [1.5, bourbon]
   - [0.75, sweet vermouth]
-  - 2 dashes Peychauds
+  - [2 dashes, Peychaud's]
   - orange twist
 
 - title: Campari Alexander
@@ -269,8 +270,8 @@
   ingredients:
   - [2, rye]
   - [0.75, Cynar]
-  - [0.1, simple syrup]
-  - 2 dashes Angostura
+  - [1 t, simple syrup]
+  - [2 dashes, Angostura]
 
 - title: Cynar flip
   tags: [flip]
@@ -309,7 +310,7 @@
   - [1, ginger liqueur]
   - [1, orange liqueur, Contreau]
   - [1, lemon juice]
-  - 2 dashes Peychauds
+  - [2 dashes, Peychaud's]
 
 - title: Daiquiri
   tags: [sour]
@@ -332,3 +333,10 @@
   - [0.75, cocchi americano]
   - [0.25, Cynar]
   - flamed orange twist
+
+- title: El Presidente
+  ingredients:
+  - [1.5, rum, white]
+  - [0.5, blanc vermouth]
+  - [0.5, orange liqueur]
+  - [2 t, grenadine]

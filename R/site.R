@@ -9,8 +9,8 @@ build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
   file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir, overwrite = TRUE)
 
-  tags <- at_least(unlist(map(cocktails, ~ .x$tags)), 2)
-  ingredients <- at_least(unlist(map(cocktails, ingredients)), 2)
+  tags <- sort(at_least(unlist(map(cocktails, ~ .x$tags)), 2))
+  ingredients <- sort(at_least(unlist(map(cocktails, ingredients)), 2))
 
   # Home page (all cocktails for now)
   write_page(cocktails, file.path(dir, "index.html"),
