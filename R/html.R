@@ -26,7 +26,8 @@ html_source <- function(x) {
   if (is.null(x)) return()
 
   if (grepl("^http", x)) {
-    html$p(class = "source", html$a(href = x, x))
+    host <- httr::parse_url(x)$hostname
+    html$p(class = "source", html$a(href = x, paste0("<", host, ">")))
   } else {
     html$p(class = "source", x)
   }
