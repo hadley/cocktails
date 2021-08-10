@@ -28,23 +28,48 @@ body {
   font-weight: 500;
 }
 
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(35ch, 1fr));
+
+  gap: 0.75rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .cocktails {
+    grid-template-columns: 1fr;
+  }
+}
+
 header {
   background-color: #111;
   color: #eee;
   padding: 1rem;
   min-height: 12rem;
 }
-header a:any-link {color: #eee;}
+header a:any-link {
+  color: #eee;
+}
 
 nav {
   background-color: #999;
   padding: 1rem;
 }
+nav {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+
 nav, .tags {
   font-family: "Gotham XNarrow SSm A", "Gotham XNarrow SSm B";
   font-style: normal;
   font-weight: 300;
   font-size: 1.2rem;
+  line-height: 1.6;
+}
+nav a:any-link {
+  text-decoration-color: #666;
+  padding-right: 2px;
 }
 nav b {
   font-weight: 500;
@@ -82,20 +107,7 @@ p, ul {
 
 a:any-link {
   color: #111;
-  text-decoration-color: #666;
-}
-
-.cocktails {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40ch, 1fr));
-
-  gap: 1rem;
-  margin: 1rem;
-}
-@media screen and (max-width: 600px) {
-  .cocktails {
-    grid-template-columns: 1fr;
-  }
+  text-decoration-color: #ccc;
 }
 
 .cocktail {
