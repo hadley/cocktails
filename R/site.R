@@ -40,11 +40,13 @@ build_site <- function(dir = "docs") {
 }
 
 write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character()) {
+  heading <- html$header(
+    html$h1(title),
+    html$p(html$small(html$a(href = "/", "home")))
+  )
   titles <- map_chr(x, ~ .x$title)
   cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
-  heading <- html$header(
-    html$h1(title)
-  )
+
   blocks <- list(heading, cocktails)
   write_page_blocks(blocks, path, title)
 }

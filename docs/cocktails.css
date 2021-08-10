@@ -23,12 +23,13 @@ body {
 header {
   background-color: #111;
   color: #eee;
+  padding: 1rem;
+  min-height: 12rem;
 }
+header a:any-link {color: #eee;}
 
 h1 {
   font-size: 5rem;
-  min-height: 12rem;
-  padding: 1rem;
   font-family: "Tungsten Cond A", "Tungsten Cond B";
   font-style: normal;
   font-weight: 300;
