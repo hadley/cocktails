@@ -40,17 +40,17 @@
   ingredients:
   - pastis rinse
   - [1, gin, plymouth]
-  - [0.75, Lillet Blanc]
+  - [0.75, Lillet blanc]
   - [0.75, orange liqueur, Cointreau]
-  - [0.75, lemon]
-  - [0.25, simple]
+  - [0.75, lemon juice]
+  - [0.25, simple syrup]
   source: https://punchdrink.com/recipes/alicia-perrys-corpse-reviver-no-2/
 
 - title: Bee's knees
   tags: [sour, classic]
   ingredients:
   - [1, gin]
-  - [0.75, lemon]
+  - [0.75, lemon juice]
   - [0.75, honey syrup]
 
 - title: Betty Wizzle
@@ -93,7 +93,7 @@
   tags: [manhattan]
   ingredients:
   - [2, rum]
-  - [1, vermouth]
+  - [1, sweet vermouth]
   - [0.25, falernum]
   - 2 dashes bitters
 
@@ -143,7 +143,7 @@
   tag: [sazerac]
   ingredients:
   - [1, rye]
-  - [1, cognac]
+  - [1, brandy]
   - [0.5, banana liqueur, Giffard Banane du Bresil]
   - [1 t, simple syrup]
   - [1 dash, Angostura]
@@ -197,7 +197,7 @@
 - title: Bramble
   ingredients:
   - [1.5, gin]
-  - [0.75, lemon]
+  - [0.75, lemon juice]
   - [0.5, simple syrup]
   - crushed ice
   - [0.75, raspberry liqueur]
@@ -299,7 +299,7 @@
 - title: Comte de Sureau
   ingredients:
   - [1.5, rum, cachaça]
-  - [0.75, aperol]
+  - [0.75, Aperol]
   - [0.5, elderflower liqueur]
   - lemon peel
 
@@ -316,7 +316,7 @@
   tags: [sour, daiquiri]
   ingredients:
   - [2.5, rum]
-  - [1, lime]
+  - [1, lime juice]
   - [0.75, simple syrup]
 
 - title: First growth
@@ -372,7 +372,7 @@
   ingredients:
   - [1, rum, blackstrap]
   - [1, lemon juice]
-  - [0.5, cynar]
+  - [0.5, Cynar]
   - [0.5, simple syrup]
 
 - title: "Hummingbird #3"
@@ -394,22 +394,22 @@
   tags: [daiquiri]
   ingredients:
   - 3 pineapple chunks
-  - [0.75, lime]
+  - [0.75, lime juice]
   - [0.5, simple syrup, demerera]
   - [0.5, apricot liqueur]
   - [1.5, rum, lightly aged blended]
 
 - title: Intro to aperol
   ingredients:
-  - [2, aperol]
+  - [2, Aperol]
   - [1, gin]
-  - [0.75, lemon]
+  - [0.75, lemon juice]
   - [1 dash, rhubarb bitters]
 
 - title: Golden handcuffs
   ingredients:
   - [1, rum, pineapple]
-  - [1, aperol]
+  - [1, Aperol]
   - [1/2, Swedish punsch]
   - [1 dash, Angostura]
 
@@ -426,7 +426,7 @@
   - [1.5, pineapple juice]
   - [1.5, rum, blackstrap]
   - [0.75, Campari]
-  - [0.5, lime]
+  - [0.5, lime juice]
   - [0.25, simple syrup]
 
 - title: Kings cobbler
@@ -448,7 +448,7 @@
   ingredients:
   - [2, rye]
   - [0.75, sweet vermouth]
-  - [0.5, cynar]
+  - [0.5, Cynar]
   - [0.25, cherry syrup]
 
 - title: Last word
@@ -469,7 +469,7 @@
 - title: Johan goes to Mexico
   ingredients:
   - [1.5, mezcal]
-  - [0.5, lemon]
+  - [0.5, lemon juice]
   - [0.5, Angostura]
   - [0.5, simple syrup, demerera]
 
@@ -478,7 +478,7 @@
   ingredients:
   - [1, gin]
   - [1, sweet vermouth]
-  - [1, Camari]
+  - [1, Campari]
 
 - title: Negroni blanco
   tags: [negroni]
@@ -498,7 +498,7 @@
 - title: Mai tai
   ingredients:
   - [2, rum, blended aged]
-  - [0.75, lime]
+  - [0.75, lime juice]
   - [0.25, simple syrup, Mai Tai]
   - [0.25, orgeat]
   - [0.5, orange liqueur, curaçao]
@@ -520,7 +520,7 @@
 
 - title: "Millionaire #1"
   ingredients:
-  - [0.75, lime]
+  - [0.75, lime juice]
   - [1 t, grenadine]
   - [0.75, apricot liqueur]
   - [0.75, rum, blended aged]
@@ -614,7 +614,7 @@
   - [1, rum, aged]
   - [1, rye]
   - [0.75, byrrh]
-  - [0.25, benedectine]
+  - [0.25, Benedectine]
   - [2 dashes, Angostura]
   - [4 dashes, Elemakule bitters]
   source: https://punchdrink.com/recipes/rum-river-mystic/
@@ -664,7 +664,7 @@
   - [2, espresso]
   - [2, boiling water]
   - [4, cream]
-  - [0.25, orange liquer]
+  - [0.25, orange liqueur]
   notes: Float whipped cream + orange liqueur
   source: https://punchdrink.com/recipes/spanish-coffee/
 
@@ -698,7 +698,7 @@
   ingredients:
   - [1, Angostura]
   - [1, orgeat]
-  - [0.75, lemon]
+  - [0.75, lemon juice]
   - [0.75, rye]
 
 - title: To hell with Spain
@@ -730,8 +730,8 @@
   ingredients:
   - [3, rye]
   - [1, simple syrup]
-  - [1, lemon]
-  - [0.5, lime]
+  - [1, lemon juice]
+  - [0.5, lime juice]
   - egg white
 
 - title: Warsaw lady
@@ -764,7 +764,7 @@
   - [1, rye]
   - [1, rum, pineapple]
   - [1, sweet vermouth]
-  - [0.5, benedectine]
+  - [0.5, Benedectine]
   - [1 dash, Angostura]
   - orange twist
   source: https://imbibemagazine.com/recipe/vieux-ananas/
@@ -775,7 +775,7 @@
   - [1, rye]
   - [1, brandy]
   - [1, sweet vermouth]
-  - [2 t, benedectine]
+  - [2 t, Benedectine]
   - [4 dashes, Angostura]
 
 - title: Warning label
