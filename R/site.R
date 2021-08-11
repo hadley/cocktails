@@ -43,7 +43,7 @@ build_site <- function(dir = "docs") {
 write_home_page <- function(x, path, tags = character(), ingredients = character()) {
   heading <- html$header(
     html$h1("Cocktails"),
-    html$p("Curated by Hadley Wickham")
+    html$p("Curated by ", html$a("Hadley", href = "http://hadley.nz"))
   )
 
   nav <- html$nav(
@@ -57,10 +57,9 @@ write_home_page <- function(x, path, tags = character(), ingredients = character
     )
   )
 
-  # Show 10 recently added cocktails
-  x <- tail(x, 10)
-  titles <- map_chr(x, ~ .x$title)
-  cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
+  # Show 10 most recently added cocktails
+  x <- rev(tail(x, 10))
+  cocktails <- map(x, html_cocktail, tags = tags, ingredients = ingredients)
 
   blocks <- list(heading, nav, cocktails)
   write_page_blocks(blocks, path, "Home")
