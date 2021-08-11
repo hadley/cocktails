@@ -46,6 +46,7 @@ body {
 
 header, nav, .cocktail {
   padding: 0.75rem;
+  box-shadow: 3px 3px 7px 0px #ccc;
 }
 
 header {
@@ -63,13 +64,13 @@ nav {
   grid-row: 2 / span 2;
 }
 
-nav, .tags {
+nav, .tags, .source {
   font-family: "Gotham XNarrow SSm A", "Gotham XNarrow SSm B";
   font-style: normal;
   font-weight: 300;
 }
 nav {font-size: 0.9rem; line-height: 1.7;}
-.tags {font-size: 0.8rem;}
+.tags, .source {font-size: 0.8rem;}
 
 nav a:any-link {
   text-decoration-color: #666;
@@ -119,9 +120,6 @@ a:any-link:hover {text-decoration-color: limegreen;}
   background-color: #fff;
   border: 1px solid white;
 }
-.cocktail.selected {
-  box-shadow: 3px 3px 7px 0px #ccc;
-}
 .cocktail.selected .title {
   border-color: black;
 }
@@ -134,19 +132,14 @@ a:any-link:hover {text-decoration-color: limegreen;}
 
 .cocktail:target {
   background: linear-gradient(-300deg,
-    hsla(58,92%,80%),
-    hsla(58,92%,75%) 5%,
-    hsla(58,92%,95%) 80%
+    hsla(120,95%,80%),
+    hsla(120,95%,75%) 5%,
+    hsla(120,95%,95%) 80%
   )
 }
 .cocktail:target .title {
   border-bottom-color: #000;
 }
-
-.source {
-  font-size: 0.9rem;
-}
-
 
 ul {
   list-style: none;
