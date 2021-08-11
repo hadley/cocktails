@@ -60,6 +60,7 @@
   source: Double trouble
 
 - title: Accoutrement
+  tags: [sour]
   ingredients:
   - [2, calvados]
   - [0.75, strega]
@@ -142,7 +143,7 @@
   - [0.5, ginger syrup]
 
 - title: Bananarac
-  tag: [sazerac]
+  tags: [sazerac]
   ingredients:
   - [1, rye]
   - [1, brandy]
@@ -151,7 +152,7 @@
   - [1 dash, Angostura]
 
 - title: Blood orange margarita
-  tag: [sour, margarita]
+  tags: [sour, margarita]
   ingredients:
   - [2, tequila]
   - [1.5, blood orange juice]
@@ -409,6 +410,7 @@
   - [1.5, rum, lightly aged blended]
 
 - title: Intro to aperol
+  tags: [sour]
   ingredients:
   - [2, Aperol]
   - [1, gin]
@@ -431,6 +433,7 @@
   - orange twist
 
 - title: Jungle bird
+  tags: [sour, tiki]
   ingredients:
   - [1.5, pineapple juice]
   - [1.5, rum, blackstrap]
@@ -439,6 +442,7 @@
   - [0.25, simple syrup]
 
 - title: Kings cobbler
+  tags: [sour]
   ingredients:
   - [2, Sfumato Rabarbaro]
   - [0.75, lemon juice]
@@ -446,7 +450,7 @@
   - 1 strawberry
 
 - title: Industry sour
-  tags: [adventurous]
+  tags: [adventurous, sour]
   ingredients:
   - [1, absinthe, pernod]
   - [1, green Chartreuse]
@@ -462,7 +466,7 @@
   - [0.25, cherry syrup]
 
 - title: Last word
-  tags: [adventurous]
+  tags: [adventurous, sour]
   ingredients:
   - [1, gin]
   - [1, lime juice]
@@ -470,6 +474,7 @@
   - [1, green Chartreuse]
 
 - title: Jungle bird
+  tags: [sour, tiki]
   ingredients:
   - [2, pineapple juice]
   - [1.5, rum, black blended]
@@ -507,6 +512,7 @@
   - cherry
 
 - title: Mai tai
+  tags: [tiki]
   ingredients:
   - [2, rum, blended aged]
   - [0.75, lime juice]
@@ -522,6 +528,7 @@
   - [2 dashes, Angostura]
 
 - title: Nacional
+  tags: [sour]
   ingredients:
   - [1.5, rum, white]
   - [0.75, apricot liqueur]
@@ -546,7 +553,7 @@
   - [1 dash, celery bitters]
 
 - title: Million
-  tag: [sour, daiquiri]
+  tags: [sour, daiquiri]
   ingredients:
   - [1.5, rum, Smith & Cross]
   - [0.75, lemon juice]
@@ -602,6 +609,7 @@
     Make sweet cream with 6 oz cream + 1 oz simple syrup, and float on cocktail.
 
 - title: Planter's punch
+  tags: tiki
   ingredients:
   - [3, rum, blended aged]
   - [1, lime juice]
@@ -610,7 +618,7 @@
   - [2 dashes, Angostura]
 
 - title: Sazerac
-  tag: [sazerac]
+  tags: [sazerac]
   ingredients:
   - absinthe rinse
   - [2, rye]
@@ -641,7 +649,7 @@
   - [7 dashes, orange bitters]
 
 - title: Sidecar
-  tag: [sour]
+  tags: [sour]
   ingredients:
   - [2, brandy]
   - [0.75, lemon juice]
@@ -688,6 +696,7 @@
   - [1.5, sweet vermouth]
 
 - title: Penicillin
+  tags: [sour]
   ingredients:
   - [2, scotch, blended]
   - [0.75, honey syrup, ginger]
@@ -723,6 +732,7 @@
   - [1 dash, cherry bark-vanilla bitters]
 
 - title: Texting with scones
+  tags: [adventurous]
   ingredients:
   - [1, Cynar]
   - [1, dry vermouth]
@@ -731,14 +741,18 @@
   - [1 t, rum, Smith & Cross]
 
 - title: Tradewinds
+  tags: [sour, tiki]
   ingredients:
-  - [1, lemon juice]
-  - [1.5, coconut cream]
-  - [1, apricot liqueur]
   - [1, rum, black blended]
   - [1, rum, lightly aged]
+  - [1, apricot liqueur]
+  - [1, lemon juice]
+  - [1.5, coconut cream]
+  notes: float coconut cream
+  source: Smuggler's Cove
 
 - title: Whiskey sour
+  tags: [sour]
   ingredients:
   - [3, rye]
   - [1, simple syrup]
@@ -811,7 +825,7 @@
   - [0.5, banana liqueur, Giffard Banane du Bresil]
 
 - title: Kir royale
-  tag: [bubbles]
+  tags: [bubbles]
   ingredients:
   - [0.5, creme de cassis]
   - champagne
@@ -819,6 +833,14 @@
 - title: Mezcaletti
   ingredients:
   - [1.5, mezcal]
-  - [1.5, Meleti]
+  - [1.5, Meletti]
   - [2 dashes, orange bitters]
   source: https://punchdrink.com/recipes/mezcaletti/
+
+- title: Sour
+  tags: [sour]
+  ingredients:
+  - [2, strong]
+  - [1, sweet]
+  - [1, sour]
+  notes: The prototypical sour
