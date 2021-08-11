@@ -18,7 +18,7 @@
   source: https://punchdrink.com/recipes/harrys-matador
 
 - title: Americano Perfecto
-  tags: [Americano]
+  tags: [negroni]
   ingredients:
   - [1.5, Campari]
   - [1.5, sweet vermouth]
@@ -164,7 +164,7 @@
   ingredients:
   - [1.5, bourbon]
   - [1, sweet vermouth]
-  - [1, campari]
+  - [1, Campari]
   - [0.25, rum, Smith and Cross]
 
 - title: Black honey
@@ -302,7 +302,7 @@
   ingredients:
   - [1, rum]
   - [1, sweet vermouth]
-  - [0.75, campari]
+  - [0.75, Campari]
   - [0.25, coffee liqueur]
 
 - title: Comte de Sureau
@@ -841,6 +841,168 @@
   tags: [sour]
   ingredients:
   - [2, strong]
-  - [1, sweet]
-  - [1, sour]
+  - [0.75, sweet]
+  - [0.75, sour]
   notes: The prototypical sour
+
+- title: Air mail cocktail
+  tags: [bubbles]
+  ingredients:
+  - [1, rum, white]
+  - [0.5, lime juice]
+  - [0.25, simple syrup]
+  - [4, champagne]
+  source: The new craft of the cocktail
+
+- title: French 75
+  tags: [bubbles]
+  ingredients:
+  - [1, gin]
+  - [0.5, lemon juice]
+  - [0.5, simple syrup]
+  - [3, champagne]
+
+- title: Alexander
+  ingredients:
+  - [1, brandy]
+  - [1, creme de cacao]
+  - [2, cream]
+  - grated nutmeg
+  source: The new craft of the cocktail
+
+- title: Algonquin
+  tags: [sour]
+  ingredients:
+  - [2, rum, white]
+  - [0.5, blackberry liqueur]
+  - [0.25, Benedectine]
+  - [0.5, lime juice]
+  - cherry
+  source: The new craft of the cocktail
+
+- title: Allegheny
+  ingredients:
+  - [1, bourbon]
+  - [1, dry vermouth]
+  - [0.5, blackberry liqueur]
+  - [0.5, lemon juice]
+  - lemon zest coin
+  notes: royal shake
+  source: The new craft of the cocktail
+
+- title: Amber dream
+  ingredients:
+  - [2, gin]
+  - [1, dry vermouth]
+  - [0.25, yellow Chartreuse]
+  - [1 dash, orange bitters]
+  - flamed orange zest coin
+  source: The new craft of the cocktail
+
+- title: Bees kiss
+  ingredients:
+  - [1.5, rum, lightly aged blended]
+  - [1, cream]
+  - [0.5, honey syrup]
+  source: The new craft of the cocktail
+
+- title: Belfast cocktail
+  ingredients:
+  - [1, port, ruby]
+  - [2, brandy]
+  - [0.5, pear brandy]
+  - [0.5, simple syrup, cinnamon]
+  - [1 dash, orange bitters]
+  - [1 dash, Angostura]
+  - freshly grated cinnamon
+  source: The new craft of the cocktail
+
+- title: Between the sheets
+  tags: [sour]
+  ingredients:
+  - [1.5, brandy]
+  - [0.5, Benedectine]
+  - [0.5, orange liquuer]
+  - [0.75, lemon juice]
+  source: The new craft of the cocktail
+
+- title: Hawaiian stone sour
+  tags: [sour]
+  ingredients:
+  - [1.5, bourbon]
+  - [0.75, simple syrup]
+  - [0.75, lemon juice]
+  - [1, pineapple juice]
+  - cherry + pineapple wedge
+  - Angostura
+  source: The new craft of the cocktail
+
+- title: Reverse manhattan
+  tags: [manhattan]
+  ingredients:
+  - [1, sweet vermouth]
+  - [1, dry vermouth]
+  - [1, bourbon]
+  - orange zest coin + cherry
+  source: The new craft of the cocktail
+
+- title: Milano Torino
+  tags: [negroni]
+  ingredients:
+  - [1, Campari]
+  - [1, sweet vermouth]
+  source: https://punchdrink.com/articles/make-the-milano-torino-aperitivo-cocktail-recipe-your-own/
+
+- title: Negroni sbagliato
+  tags: [negroni, bubbles]
+  ingredients:
+  - [1, Campari]
+  - [1, sweet vermouth]
+  - [3, champagne]
+
+- title: Reggae
+  ingredients:
+  - [1.5, rum, lightly aged blended]
+  - [0.5, orange liqueur]
+  - [1.5, pineapple juice]
+  - [2 dashes, Angostura]
+  - freshly grated nutmeg
+  source: The new craft of the cocktail
+
+- title: Eight row flint ranch water
+  tags: [fizz]
+  ingredients:
+  - [2, sotol]
+  - [1, lime juice]
+  - [0.5, simple syrup, lime oleo]
+  - soda water
+  source: https://punchdrink.com/recipes/eight-row-flint-ranch-water/
+
+- title: Campari spritz
+  tags: [bubbles, fizz]
+  ingredients:
+  - [2, champagne]
+  - [2.5, Campari]
+  - [2, soda water]
+  - [2 drops, lime acid]
+
+- title: New York sour
+  tags: [sour]
+  ingredients:
+  - [1.5, rye]
+  - [0.75, lemon juice]
+  - [0.75, simple syrup]
+  - [0.75, red wine, dry]
+  notes: float red wine
+  source: Speakeasy
+
+- title: Hemingway daiquiri
+  tags: [daiquiri, sour]
+  ingredients:
+  - [1.75, rum, white]
+  - [0.75, maraschino]
+  - [1, lime juice]
+  - [0.75, grapefruit juice]
+  - [0.25, simple syrup]
+  source: Speakeasy
+
