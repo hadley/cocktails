@@ -24,7 +24,8 @@ build_site <- function(dir = "docs") {
     write_page(filtered, file.path(dir, paste0("tag-", slug(tag), ".html")),
       tags = setdiff(tags, tag),
       ingredients = ingredients,
-      title = first_upper(tag)
+      title = first_upper(tag),
+      current_tag = tag
     )
   }
 
@@ -66,13 +67,27 @@ write_home_page <- function(x, path, tags = character(), ingredients = character
 }
 
 
-write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character()) {
+write_page <- function(x, path, title = "Cocktails", tags = character(), ingredients = character(), current_tag = NULL) {
   heading <- html$header(
     html$h1(title),
     html$p(html$small(html$a(href = "/", "home")))
   )
   titles <- map_chr(x, ~ .x$title)
-  cocktails <- map(x[order(titles)], html_cocktail, tags = tags, ingredients = ingredients)
+  x <- x[order(titles)]
+  titles <- titles[order(titles)]
+
+  if (!is.null(current_tag) && current_tag %in% tolower(titles)) {
+    sel <- x[current_tag == tolower(titles)]
+    x <- x[current_tag != tolower(titles)]
+
+    cocktails <- c(
+      map(sel, html_cocktail, tags = tags, ingredients = ingredients, classes = "selected"),
+      map(x, html_cocktail, tags = tags, ingredients = ingredients)
+    )
+
+  } else {
+    cocktails <- map(x, html_cocktail, tags = tags, ingredients = ingredients)
+  }
 
   blocks <- list(heading, cocktails)
   write_page_blocks(blocks, path, title)

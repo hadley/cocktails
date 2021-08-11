@@ -119,6 +119,12 @@ a:any-link:hover {text-decoration-color: limegreen;}
   background-color: #fff;
   border: 1px solid white;
 }
+.cocktail.selected {
+  box-shadow: 3px 3px 7px 0px #ccc;
+}
+.cocktail.selected .title {
+  border-color: black;
+}
 .cocktail:hover {
   border-color: black;
 }

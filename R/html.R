@@ -1,6 +1,6 @@
-html_cocktail <- function(x, tags = character(), ingredients = character()) {
+html_cocktail <- function(x, tags = character(), ingredients = character(), classes = character()) {
   html$article(
-    class = "cocktail",
+    class = paste0(c("cocktail", classes), collapse = " "),
     id = slug(x$title),
 
     # bar_ingredients(x$ingredients),
@@ -48,10 +48,14 @@ html_ingredient <- function(x, ingredients) {
 }
 
 html_tags <- function(x, tags) {
-  if (is.null(x)) return()
-  if (!is.character(x)) {
+  if (!is.character(x) && !is.null(x)) {
     stop_invalid(x)
   }
+  x <- intersect(x, tags)
+  if (length(x) == 0) {
+    return()
+  }
+
   links <- map(x, link_page, prefix = "tag", valid = tags)
   block <- HTML(paste0(map_chr(links, as.character), collapse = ", "))
   html$p(class = "tags", block)
