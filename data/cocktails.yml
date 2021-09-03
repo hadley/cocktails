@@ -165,12 +165,12 @@
   - [1.5, bourbon]
   - [1, sweet vermouth]
   - [1, Campari]
-  - [0.25, rum, Smith and Cross]
+  - [0.25, rum, Smith & Cross]
 
 - title: Black honey
   ingredients:
   - [2, Cynar]
-  - [1, rum, Smith and Cross]
+  - [1, rum, Smith & Cross]
   - [0.75, cinnamon syrup]
   - [0.5, lime juice]
   notes: stirred
@@ -270,7 +270,7 @@
   tags: [sour]
   ingredients:
   - [2, gin]
-  - [1, grenadine]
+  - [1, Grenadine]
   - [0.75, lemon juice]
   - 1 egg white
 
@@ -345,11 +345,12 @@
   - flamed orange twist
 
 - title: El Presidente
+  source: Smuggler's cove
   ingredients:
-  - [1.5, rum, white]
-  - [0.5, blanc vermouth]
+  - [1.5, rum, blended lightly aged]
+  - [0.75, dry vermouth]
   - [0.5, orange liqueur]
-  - [2 t, grenadine]
+  - [0.5, Grenadine]
 
 - title: Eeyore's requieum
   ingredients:
@@ -401,9 +402,10 @@
   - [1, lime juice]
 
 - title: Hotel Nacional
-  tags: [sour, daiquiri]
+  tags: [sour, daiquiri, tiki, 3 star]
+  source: Smuggler's Cove
   ingredients:
-  - 3 pineapple chunks
+  - [3 chunks, pineapple]
   - [0.75, lime juice]
   - [0.5, simple syrup, demerera]
   - [0.5, apricot liqueur]
@@ -512,7 +514,7 @@
   - cherry
 
 - title: Mai tai
-  tags: [tiki]
+  tags: [tiki, 3 star]
   ingredients:
   - [2, rum, blended aged]
   - [0.75, lime juice]
@@ -539,7 +541,7 @@
 - title: "Millionaire #1"
   ingredients:
   - [0.75, lime juice]
-  - [1 t, grenadine]
+  - [1 t, Grenadine]
   - [0.75, apricot liqueur]
   - [0.75, rum, blended aged]
   - [0.75, sloe gin]
@@ -573,7 +575,7 @@
   - [2, vodka]
   - 1/2 lemon, muddled
   - [0.75, simple syrup]
-  - Soda water
+  - soda water
 
 - title: Pimm's cup
   tags: [fizz]
@@ -583,7 +585,7 @@
   - 1 cm orange
   - [0.25, simple syrup]
   - [2, Pimm's]
-  - Soda water
+  - soda water
 
 - title: Pirate's revenge
   ingredients:
@@ -600,7 +602,9 @@
   - [1, sweet vermouth]
   - [0.25, Campari]
 
-- title: Parisian blond
+- title: Parisian blonde
+  tags: [tiki, 3 star]
+  source: Smuggler's cove
   ingredients:
   - [1, orange liqueur, curaçao]
   - [1, rum, blended aged]
@@ -609,11 +613,11 @@
     Make sweet cream with 6 oz cream + 1 oz simple syrup, and float on cocktail.
 
 - title: Planter's punch
-  tags: tiki
+  tags: [tiki, 3 star]
   ingredients:
   - [3, rum, blended aged]
   - [1, lime juice]
-  - [0.75, simple syrup, demerera]
+  - [0.75, simple syrup, demerra]
   - [0.25, allspice liqueur]
   - [2 dashes, Angostura]
 
@@ -867,7 +871,7 @@
   - [1, brandy]
   - [1, creme de cacao]
   - [2, cream]
-  - grated nutmeg
+  - freshly grated nutmeg
   source: The new craft of the cocktail
 
 - title: Algonquin
@@ -1006,3 +1010,274 @@
   - [0.25, simple syrup]
   source: Speakeasy
 
+- title: Aku aku
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [5 chunks, pineapple]
+  - [8 leaves, mint]
+  - [1, lime juice]
+  - [0.5, simple syrup, demerera]
+  - [0.5, peach liqueur]
+  - [1.5, rum, blended lightly aged]
+
+- title: Don's own grog
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lime juice]
+  - [0.25, simple syrup, demerera]
+  - [1 dash, Grenadine]
+  - [0.5, blackberry liqueur]
+  - [0.5, rum, blended lightly aged]
+  - [0.5, rum, black blended]
+  - [1 dash, Angostura]
+
+- title: Remember the Alimony
+  tags: [negroni]
+  source: https://punchdrink.com/recipes/remember-the-alimony/
+  ingredients:
+  - [1.25, sherry, fino]
+  - [1.25, Cynar]
+  - [0.75, gin, Beefeater]
+
+- title: Hawaiian sunset
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.5, lime juice]
+  - [0.5, lemon juice]
+  - [0.5, orgeat]
+  - [1 t, Grenadine]
+  - [1.5, vodka]
+
+- title: Merciless Virgin
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lemon juice]
+  - [0.5, soda water]
+  - [0.5, cherry liqueur]
+  - [0.5, Velvet Falernum]
+  - [0.25, orange liqueur, dry curaçao]
+  - [1.5, rum, blended lightly aged]
+
+- title: Tiki bowl
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1.5, orange juice]
+  - [0.75, lime juice]
+  - [1, honey syrup]
+  - [1.25, rum, black blended]
+  - [1, rum, black overproof]
+  - [1, rum, column still aged]
+  - [2 dashes, Herbstura]
+  notes: Serves two
+
+- title: Tradewinds
+  tags: [tiki, 3 star]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, lemon juice]
+  - [1.5, coconut cream]
+  - [1, apricot liqueur]
+  - [1, rum, black blended]
+  - [1, rum, blended lightly aged]
+
+- title: Jungle bird
+  tags: [tiki, 3 star]
+  source: Smuggler's Cove
+  ingredients:
+  - [2, pineapple juice]
+  - [0.5, lime juice]
+  - [0.5, simple syrup, demerera]
+  - [0.75, Campari]
+  - [1.5, rum, black blended]
+
+- title: Golden gun
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lime juice]
+  - [0.5, grapefruit juice]
+  - [0.5, simple syrup, demerera]
+  - [0.5, apricot liqueur]
+  - [1, rum, blended aged]
+  - [1, rum, blended lightly aged]
+  - [2 dashes, Angostura]
+
+- title: Hinky dinks fizzy
+  tags: [tiki, bubbles]
+  source: Smuggler's Cove
+  ingredients:
+  - [2, champagne]
+  - [1.5, pineapple juice]
+  - [0.5, lime juice]
+  - [0.5, passion fruit syrup]
+  - [0.5, apricot liqueur]
+  - [1, gin, London dry]
+  - [1, rum, blended lightly aged]
+
+- title: The twenty seventy swizzle
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.5, lime juice]
+  - [0.5, simple syrup, demerera]
+  - [0.5, honey syrup]
+  - [0.5, allspice liqueur]
+  - [1, rum, column still aged]
+  - [1, rum, black blended overproof]
+  - [1 dash, Herbstura]
+  - freshly grated nutmeg
+
+- title: Chartreuse swizzle
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, pineapple juice]
+  - [0.75, lime juice]
+  - [0.5, Velvet Falernum]
+  - [1.5, green Chartreuse]
+
+- title: Swizzle Français
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.5, lime juice]
+  - [0.5, simple syrup, sugarcane]
+  - [0.25, allspice liqueur]
+  - [2, rhum agricole, vieux]
+  - freshly grated nutmeg
+
+- title: Kaiteur swizzle
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lime juice]
+  - [0.5, maple syrup]
+  - [0.5, Velvet Falernum]
+  - [2, rum, blended aged]
+  - [2 dashes, Angostura]
+
+- title: Falinium
+  tags: [tiki, fizz]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, lemon juice]
+  - [1, coconut cream]
+  - [1, soda water]
+  - [0.5, Velvet Falernum]
+  - [2, rum, column still aged]
+  - [1 dash, orange bitters]
+
+- title: Humuhumunukunukpua'a
+  tags: [tiki, 3 star]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lemon juice]
+  - [0.75, pineapple juice]
+  - [0.5, orgeat]
+  - [2, gin]
+  - [2 dashes, Peychaud's]
+
+- title: Rum flip
+  tags: [tiki, flip]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, egg]
+  - [0.25, simple syrup, demerera]
+  - [2, rum, blended aged]
+
+- title: Mary Pickford
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1.5, pineapple juice]
+  - [1 t, Grenadine]
+  - [6 drops, maraschino]
+  - [1.5, rum, lightly blended aged]
+
+- title: Twelve mile limit
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.5, lemon juice]
+  - [0.5, Grenadine]
+  - [1, rum, blended lightly aged]
+  - [0.5, rye]
+  - [0.5, brandy]
+
+- title: Ti' punch
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1 t, simple syrup, sugarcane]
+  - [2, rhum agricole, blanc]
+  - 1 lime coin
+
+- title: Barbados rum punch
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, lime juice]
+  - [1, simple syrup, demera]
+  - [2, rum, blended aged]
+  - [1 dash, Angostura bitters]
+
+- title: Jamaican milk punch
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [1, milk]
+  - [1, cream]
+  - [0.5, simple syrup, demerera]
+  - [1, rum, black blended]
+  - [6 drops, vanilla]
+  - [1 dash, Angostura]
+
+- title: A wish for Grace
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.75, lemon juice]
+  - [0.5, simple syrup]
+  - [0.5, orange liqueur, dry curaçao]
+  - [1.5, rum, Smith & Cross]
+  - [0.75, Madeira]
+  - [1 dash, Angostura]
+
+- title: Abricot vieux
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [0.5, apricot liqueur]
+  - [2, rhum agricole, vieux]
+  - [1 dash, Angostura]
+  - [1 dash, orange bitters]
+
+- title: The mastodon
+  tags: [tiki, 3 star]
+  source: Smuggler's Cove
+  ingredients:
+  - [3, pineapple juice]
+  - [0.5, lime juice]
+  - [1, passion fruit puree]
+  - [0.5, Licor 43]
+  - [0.5, maraschino]
+  - [1.5, rum, blended aged]
+  - [1.5, bourbon]
+  - [2 dashes, Peychaud's]
+
+- title: Piñata
+  tags: [tiki]
+  source: Smuggler's Cove
+  ingredients:
+  - [3, pineapple juice]
+  - [1, lemon juice]
+  - [0.25, simple syrup, demerera]
+  - [1, ginger liqueur]
+  - [0.5, allspice liqueur]
+  - [1, rum, black blended]
+  - [1, rum, blended lightly aged]
