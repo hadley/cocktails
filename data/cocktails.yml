@@ -47,7 +47,7 @@
 - title: Bee's knees
   tags: [sour]
   ingredients:
-  - [1, gin]
+  - [2, gin]
   - [0.75, lemon juice]
   - [0.75, honey syrup]
 
@@ -434,15 +434,6 @@
   - [0.5, dry vermouth]
   - orange twist
 
-- title: Jungle bird
-  tags: [sour, tiki]
-  ingredients:
-  - [1.5, pineapple juice]
-  - [1.5, rum, blackstrap]
-  - [0.75, Campari]
-  - [0.5, lime juice]
-  - [0.25, simple syrup]
-
 - title: Kings cobbler
   tags: [sour]
   ingredients:
@@ -474,15 +465,6 @@
   - [1, lime juice]
   - [1, maraschino]
   - [1, green Chartreuse]
-
-- title: Jungle bird
-  tags: [sour, tiki]
-  ingredients:
-  - [2, pineapple juice]
-  - [1.5, rum, black blended]
-  - [0.5, lime juice]
-  - [0.5, simple syrup, demerera]
-  - [0.75, Campari]
 
 - title: Johan goes to Mexico
   ingredients:
