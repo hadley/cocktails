@@ -674,7 +674,7 @@
   notes: Float whipped cream + orange liqueur
   source: https://punchdrink.com/recipes/spanish-coffee/
 
-- title: Kingston
+- title: Kingston negroni
   tags: [negroni]
   ingredients:
   - [1.5, rum, Smith & Cross]
@@ -885,7 +885,7 @@
   - flamed orange zest coin
   source: The new craft of the cocktail
 
-- title: Bees kiss
+- title: Bee's kiss
   ingredients:
   - [1.5, rum, lightly aged blended]
   - [1, cream]
@@ -908,7 +908,7 @@
   ingredients:
   - [1.5, brandy]
   - [0.5, Benedectine]
-  - [0.5, orange liquuer]
+  - [0.5, orange liqueur]
   - [0.75, lemon juice]
   source: The new craft of the cocktail
 
@@ -967,7 +967,7 @@
 - title: Campari spritz
   tags: [bubbles, fizz]
   ingredients:
-  - [2, champagne]
+  - [3, champagne]
   - [2.5, Campari]
   - [2, soda water]
   - [2 drops, lime acid]
@@ -1186,11 +1186,11 @@
   tags: [tiki]
   source: Smuggler's Cove
   ingredients:
-  - [0.5, lemon juice]
-  - [0.5, Grenadine]
   - [1, rum, blended lightly aged]
   - [0.5, rye]
   - [0.5, brandy]
+  - [0.5, lemon juice]
+  - [0.5, Grenadine]
 
 - title: Ti' punch
   tags: [tiki]
@@ -1207,7 +1207,7 @@
   - [1, lime juice]
   - [1, simple syrup, demera]
   - [2, rum, blended aged]
-  - [1 dash, Angostura bitters]
+  - [1 dash, Angostura]
 
 - title: Jamaican milk punch
   tags: [tiki]
@@ -1264,3 +1264,73 @@
   - [0.5, allspice liqueur]
   - [1, rum, black blended]
   - [1, rum, blended lightly aged]
+
+- title: Aperol spritz
+  tags: [fizz]
+  ingredients:
+  - [3, champagne]
+  - [2, Aperol]
+  - [1, soda water]
+
+- title: Pegu club
+  ingredients:
+  - [2, gin, London dry]
+  - [0.75, orange liqueur]
+  - [0.75, lime juice]
+  - [1 dash, Angostura]
+  - [1 dash, orange bitters]
+
+- title: Tom Collins
+  ingredients:
+  - [1.5, gin]
+  - [0.75, lemon juice]
+  - [0.75, simple syrup]
+  - soda water
+
+- title: Margarita
+  ingredients:
+  - [2, tequila]
+  - [0.75, lime juice]
+  - [0.75, orange liqueur]
+  - [1 t, simple syrup]
+
+- title: Mezcalita
+  ingredients:
+  - [2, mezcal]
+  - [0.75, lime juice]
+  - [0.75, orange liqueur]
+  - [1 t, simple syrup]
+
+- title: Ranch water
+  tags: [fizz]
+  ingredients:
+  - [2, tequila]
+  - [1, orange liqueur]
+  - [1, lime juice]
+  - soda water
+
+- title: Reverse Manhattan
+  ingredients:
+  - [1, rye]
+  - [1, sweet vermouth]
+  - [1, dry vermouth]
+
+- title: Boulevardier
+  tags: [negroni]
+  ingredients:
+  - [1.5, rye]
+  - [1, Campari]
+  - [1, sweet vermouth]
+
+- title: Sin Cyn
+  tags: [negroni]
+  ingredients:
+  - [1, scotch]
+  - [1, Cynar]
+  - [1, sweet vermouth]
+
+- title: Bobby Burns
+  ingredients:
+  - [2, scotch]
+  - [1, sweet vermouth]
+  - [1 t, Benedectine]
