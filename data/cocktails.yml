@@ -86,7 +86,7 @@
   - [0.5, lemon juice]
   - [0.5, simple syrup]
   - [0.25, violet liqueur]
-  - garnish with angostura bitters
+  - garnish with Angostura bitters
 
 - title: Across 110th street
   tags: [manhattan]
@@ -147,7 +147,7 @@
   ingredients:
   - [1, rye]
   - [1, brandy]
-  - [0.5, banana liqueur, Giffard Banane du Bresil]
+  - [0.5, banana liqueur]
   - [1 t, simple syrup]
   - [1 dash, Angostura]
 
@@ -204,7 +204,7 @@
   - [1.5, gin]
   - [0.75, lemon juice]
   - [0.5, simple syrup]
-  - crushed ice
+  - "serve over crushed ice, then drizzle with:"
   - [0.75, raspberry liqueur]
   notes: float liqueur
 
@@ -272,7 +272,7 @@
   - [2, gin]
   - [1, Grenadine]
   - [0.75, lemon juice]
-  - 1 egg white
+  - 1 egg white (optional)
 
 - title: Cynar Toronto
   tags: [manhattan]
@@ -653,7 +653,7 @@
   - egg white
   - soda water
 
-- title: Smokey negroni
+- title: Smoky negroni
   tags: [negroni]
   ingredients:
   - [1.5, mezcal]
@@ -808,13 +808,13 @@
   - [1, bourbon]
   - [1, sweet vermouth]
   - [0.5, Campari]
-  - [0.5, banana liqueur, Giffard Banane du Bresil]
+  - [0.5, banana liqueur]
 
 - title: Kir royale
   tags: [bubbles]
   ingredients:
+  - [4, champagne]
   - [0.5, creme de cassis]
-  - champagne
 
 - title: Mezcaletti
   ingredients:
@@ -831,22 +831,22 @@
   - [0.75, sour]
   notes: The prototypical sour
 
-- title: Air mail cocktail
+- title: Air mail
   tags: [bubbles]
   ingredients:
+  - [3, champagne]
   - [1, rum, white]
   - [0.5, lime juice]
   - [0.25, simple syrup]
-  - [4, champagne]
   source: The new craft of the cocktail
 
 - title: French 75
   tags: [bubbles]
   ingredients:
+  - [3, champagne]
   - [1, gin]
   - [0.5, lemon juice]
   - [0.5, simple syrup]
-  - [3, champagne]
 
 - title: Alexander
   ingredients:
@@ -942,9 +942,9 @@
 - title: Negroni sbagliato
   tags: [negroni, bubbles]
   ingredients:
+  - [2, champagne]
   - [1, Campari]
   - [1, sweet vermouth]
-  - [3, champagne]
 
 - title: Reggae
   ingredients:
@@ -968,8 +968,8 @@
   tags: [bubbles, fizz]
   ingredients:
   - [3, champagne]
-  - [2.5, Campari]
-  - [2, soda water]
+  - [1.5, Campari]
+  - [1, soda water]
   - [2 drops, lime acid]
 
 - title: New York sour
@@ -1204,9 +1204,9 @@
   tags: [tiki]
   source: Smuggler's Cove
   ingredients:
+  - [2, rum, blended aged]
   - [1, lime juice]
   - [1, simple syrup, demera]
-  - [2, rum, blended aged]
   - [1 dash, Angostura]
 
 - title: Jamaican milk punch
@@ -1285,7 +1285,7 @@
   - [1.5, gin]
   - [0.75, lemon juice]
   - [0.75, simple syrup]
-  - soda water
+  - [2, soda water]
 
 - title: Margarita
   ingredients:
@@ -1307,7 +1307,7 @@
   - [2, tequila]
   - [1, orange liqueur]
   - [1, lime juice]
-  - soda water
+  - [2, soda water]
 
 - title: Reverse Manhattan
   ingredients:
@@ -1334,3 +1334,23 @@
   - [2, scotch]
   - [1, sweet vermouth]
   - [1 t, Benedectine]
+
+- title: Spicy margarita
+  ingredients:
+  - [2, tequila]
+  - [0.75, lime juice]
+  - [0.75, Ancho Reyes]
+
+- title: Banana Manhattan
+  ingredients:
+  - [1.5, rum, aged]
+  - [1.5, sweet vermouth]
+  - [0.5, banana liqueur]
+  - [1 dash, absinthe]
+
+- title: Barbotage
+  tag: [bubbles]
+  ingredients:
+  - [3, champagne]
+  - [0.75, brandy]
+  - [0.25, orange liqueur]

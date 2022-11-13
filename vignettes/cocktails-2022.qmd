@@ -1,0 +1,125 @@
+---
+format: 
+  pdf:
+    documentclass: book
+    geometry: 
+    # - paper=letterpaper
+    - paperheight=181mm
+    - paperwidth=114mm
+    - top=15mm
+    - head=0mm
+    - bottom=15mm
+    - inner=20mm
+    - outer=18mm
+    - includefoot
+    # - showcrop
+    # - layouthoffset=1in
+    # - layoutvoffset=1in
+    fontsize: 12pt
+    toc: true
+    toc-depth: 1
+    toc-title: "Contents"
+    include-in-header: preamble.tex
+    block-headings: false # for titlesec
+editor: visual
+---
+
+```{r}
+#| include: false
+library(cocktails)
+library(purrr)
+
+cocktails_named <- cocktails |> set_names(map_chr(cocktails, "title"))
+book_cocktails <- book22 |> map(\(titles) cocktails_named[titles])
+
+show_cocktails <- function(type) {
+  book_cocktails[[type]] |> walk(show_cocktail)
+}
+
+cat_line <- function(...) cat(paste(..., "\n", collapse = "")) 
+
+show_cocktail <- function(cocktail) {
+  cat_line(md_cocktail(cocktail))
+}
+```
+
+# Introduction
+
+\RaggedRight
+The cocktails in this book are presented without instructions --- you need to figure out whether to shake or stir, based on the ingredients! Fortunately, this is simple: if the drink contains citrus (or pineapple), shake it, otherwise stir it.
+
+The cocktails are organised by primary spirit, and within each spirit from lighter to stronger. The choice of glassware is up to you. If it contains champagne, serve it in a flute; if it contains soda water, serve it in a tall (Collins) glass. Otherwise, lighter drinks are generally served up, and stronger drinks are served down. Particularly spirit heavy drinks benefit from being served on the rocks so that ice will mellow the cocktail as you drink it. 
+
+A few specific ingredient recommendations:
+
+* Orange liqueur: Pierre Ferrand's Dry Curaçao
+* Banana liqueur: Giffard's Banane du Brésil
+
+# Champagne
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("champagne")
+```
+
+# Gin
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("gin")
+```
+
+# Tequila
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("tequila")
+```
+
+# Mezcal
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("mezcal")
+```
+
+# Brandy
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("brandy")
+```
+
+# Rum
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("rum")
+```
+
+# Rye
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("rye")
+```
+
+# Scotch
+
+```{r}
+#| echo: false
+#| results: asis
+show_cocktails("scotch")
+```
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Index}
+\myindexfont
+\printindex

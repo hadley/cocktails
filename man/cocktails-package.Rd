@@ -4,9 +4,17 @@
 \name{cocktails-package}
 \alias{cocktails}
 \alias{cocktails-package}
-\title{cocktails: What the Package Does (One Line, Title Case)}
+\title{cocktails: Hadley's cocktail book}
 \description{
-What the package does (one paragraph).
+Hadley's cocktails and the R code needed to turn them into a website.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/hadley/cocktails}
+  \item Report bugs at \url{https://github.com/hadley/cocktails/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Hadley Wickham \email{hadley@rstudio.com}

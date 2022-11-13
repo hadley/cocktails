@@ -1,0 +1,65 @@
+\raggedbottom % don't justify vertically
+
+\setmainfont{Archer Book}[Numbers=Lining,Fractions=On,Scale=1.1]
+\newfontfamily\mychapterfont{Verlag Black}
+\newfontfamily\mypagenumfont{Verlag Book}
+\newfontfamily\myindexfont{Verlag Condensed Book}
+
+\usepackage{ragged2e}
+
+% footer --------------------------------------------------
+% https://mirror2.sandyriver.net/pub/ctan/macros/latex/contrib/fancyhdr/fancyhdr.pdf
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[RO,LE]{\mypagenumfont\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% Table of contents ---------------------------------------
+
+\usepackage{tocloft}
+
+% Failed experiment listing cocktail names in TOC
+% \cftsetindents{sec}{1em}{1.5em}         % decrease indent
+% \renewcommand{\cfttoctitlefont}{\Large\mychapterfont}
+% \setlength{\cftbeforetoctitleskip}{0pt} % decrease spacing around TOC title
+% \setlength{\cftaftertoctitleskip}{12pt}
+%
+% \cftpagenumbersoff{section}             % don't show page numbers for cocktails
+% \renewcommand{\cftsecfont}{\small}      % make cocktail names smaller
+
+\tocloftpagestyle{empty}                % suppress page number (only works on first page)
+
+% titles --------------------------------------------------
+% https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
+
+\usepackage[compact,tiny]{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Large\mychapterfont}
+\titlespacing*{\chapter}{0pt}{-20pt}{20pt}
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+
+
+% ingredients ---------------------------------------------
+\usepackage{enumitem}
+% https://mirror2.sandyriver.net/pub/ctan/macros/latex/contrib/enumitem/enumitem.pdf
+\setlist{
+  label=,              % suppress label
+  noitemsep,           % decrease padding
+  leftmargin=0pt,      % remove indent
+  beginpenalty=10000,  % prevent breaking
+  midpenalty=10000,
+  endpenalty=10000
+}
+
+\usepackage{makeidx}
+% https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/idxlayout/idxlayout.pdf
+\usepackage[
+  indentunit=5pt,         % decrease hanging indent
+  rule=0.25pt,            % add hair line separator
+  justific=raggedright,   % don't justify
+  totoc=true
+]{idxlayout}
+\makeindex
