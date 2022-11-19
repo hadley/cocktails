@@ -82,7 +82,7 @@
   tags: [sour]
   ingredients:
   - [2, gin]
-  - [0.75, maraschino]
+  - [0.75, maraschino liqueur]
   - [0.5, lemon juice]
   - [0.5, simple syrup]
   - [0.25, violet liqueur]
@@ -463,7 +463,7 @@
   ingredients:
   - [1, gin]
   - [1, lime juice]
-  - [1, maraschino]
+  - [1, maraschino liqueur]
   - [1, green Chartreuse]
 
 - title: Johan goes to Mexico
@@ -532,7 +532,7 @@
   ingredients:
   - [1.5, gin, old tom]
   - [1.5, sweet vermouth]
-  - [1 t, maraschino]
+  - [1 t, maraschino liqueur]
   - [1 dash, orange bitters]
   - [1 dash, celery bitters]
 
@@ -749,7 +749,7 @@
 - title: Warsaw lady
   ingredients:
   - [1.5, vodka]
-  - [1, maraschino]
+  - [1, maraschino liqueur]
   - [0.5, orange liqueur]
   - [1 dash, Angostura]
 
@@ -986,7 +986,7 @@
   tags: [daiquiri, sour]
   ingredients:
   - [1.75, rum, white]
-  - [0.75, maraschino]
+  - [0.75, maraschino liqueur]
   - [1, lime juice]
   - [0.75, grapefruit juice]
   - [0.25, simple syrup]
@@ -1179,7 +1179,7 @@
   ingredients:
   - [1.5, pineapple juice]
   - [1 t, Grenadine]
-  - [6 drops, maraschino]
+  - [6 drops, maraschino liqueur]
   - [1.5, rum, lightly blended aged]
 
 - title: Twelve mile limit
@@ -1248,7 +1248,7 @@
   - [0.5, lime juice]
   - [1, passion fruit puree]
   - [0.5, Licor 43]
-  - [0.5, maraschino]
+  - [0.5, maraschino liqueur]
   - [1.5, rum, blended aged]
   - [1.5, bourbon]
   - [2 dashes, Peychaud's]
@@ -1354,3 +1354,11 @@
   - [3, champagne]
   - [0.75, brandy]
   - [0.25, orange liqueur]
+
+- title: "1910"
+  ingredients:
+  - [0.75, mezcal]
+  - [0.75, brandy]
+  - [0.5, maraschino liqueur]
+  - [1, sweet vermouth]
+  - [2 dashes, Peychaud's]
