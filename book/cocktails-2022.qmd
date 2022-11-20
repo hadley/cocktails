@@ -29,6 +29,8 @@ editor: visual
 library(cocktails)
 library(purrr)
 
+book22 <- yaml::read_yaml("book-22.yml")
+
 cocktails_named <- cocktails |> set_names(map_chr(cocktails, "title"))
 book_cocktails <- book22 |> map(\(titles) cocktails_named[titles])
 
@@ -46,11 +48,19 @@ show_cocktail <- function(cocktail) {
 # Introduction
 
 \RaggedRight
-The cocktails in this book are presented without instructions --- you need to figure out whether to shake or stir, based on the ingredients! Fortunately, this is simple: if the drink contains citrus or pineapple, shake it, otherwise stir it. If you choose to include an egg white, we suggest the reverse shake: shake all the ingredients with ice, strain, and then shake again without ice.
 
-The cocktails are organised by primary spirit, and within each spirit from lighter to stronger. The choice of glassware is up to you. In genera, if it contains champagne, serve it in a flute; if it contains soda water, serve it in a tall (Collins) glass. Otherwise, lighter drinks are generally served up, and stronger drinks are served down. Particularly spirit forward drinks benefit from being served on ice so the drink mellows as the ice melts. 
+The cocktails in this book are presented without instructions --- you need to figure out whether to shake or stir, based on the ingredients!
+Fortunately, this is simple: if the drink contains citrus or pineapple, shake it, otherwise stir it.
+If you choose to include an egg white, we suggest the reverse shake: shake all the ingredients with ice, strain, and then shake again without ice.
 
-To make simple syrup, combine equal parts by weight sugar and water, and either mix in a blender or gently warm in a pot over low heat. For orange liqueur we recommend Pierre Ferrand's Dry Curaçao and for banana liqueur we recommend Giffard's Banane du Brésil.
+The cocktails are organised by primary spirit, and within each spirit from lighter to stronger.
+The choice of glassware is up to you.
+In genera, if it contains champagne, serve it in a flute; if it contains soda water, serve it in a tall (Collins) glass.
+Otherwise, lighter drinks are generally served up, and stronger drinks are served down.
+Particularly spirit forward drinks benefit from being served on ice so the drink mellows as the ice melts.
+
+To make simple syrup, combine equal parts by weight sugar and water, and either mix in a blender or gently warm in a pot over low heat.
+For orange liqueur we recommend Pierre Ferrand's Dry Curaçao and for banana liqueur we recommend Giffard's Banane du Brésil.
 
 Salud!
 
@@ -120,7 +130,9 @@ show_cocktails("rye")
 show_cocktails("scotch")
 ```
 
+```{=tex}
 \cleardoublepage
 \myindexfont
 \printindex
 \printindex[names]
+```

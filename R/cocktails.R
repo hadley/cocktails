@@ -1,7 +1,7 @@
 ingredients <- function(x) {
-  x$ingredients %>%
-    keep(~ length(.x) >= 2) %>%
-    map_chr(~ .x[[2]]) %>%
+  x$ingredients |>
+    keep(~ length(.x) >= 2) |>
+    map_chr(~ .x[[2]]) |>
     unique()
 }
 

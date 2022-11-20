@@ -16,10 +16,12 @@ html_cocktail <- function(x, tags = character(), ingredients = character(), clas
 
 }
 html_ingredients <- function(x, ingredients) {
-  x %>%
-    map(html_ingredient, ingredients) %>%
-    map(html$li) %>%
-    html$ul(.)
+  ul <- html$ul
+
+  x |>
+    map(html_ingredient, ingredients) |>
+    map(html$li) |>
+    ul()
 }
 
 html_source <- function(x) {
