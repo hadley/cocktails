@@ -5,6 +5,7 @@ preview_site <- function() {
   }
 }
 
+#' @export
 build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
   file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir, overwrite = TRUE)
