@@ -5,6 +5,10 @@ preview_site <- function() {
   }
 }
 
+#' Build complete site
+#'
+#' @param dir Output directory
+#' @export
 build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
   file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir, overwrite = TRUE)
@@ -20,7 +24,7 @@ build_site <- function(dir = "docs") {
 
   # Tag pages
   for (tag in tags) {
-    filtered <- cocktails %>% keep(~ tag %in% .x$tags)
+    filtered <- cocktails |> keep(~ tag %in% .x$tags)
     write_page(filtered, file.path(dir, paste0("tag-", slug(tag), ".html")),
       tags = setdiff(tags, tag),
       ingredients = ingredients,
@@ -31,7 +35,7 @@ build_site <- function(dir = "docs") {
 
   # Ingredient pages
   for (ingredient in ingredients) {
-    filtered <- cocktails %>% keep(~ ingredient %in% ingredients(.x))
+    filtered <- cocktails |> keep(~ ingredient %in% ingredients(.x))
     write_page(filtered, file.path(dir, paste0("ingredient-", slug(ingredient), ".html")),
       tags = tags,
       ingredients = setdiff(ingredients, ingredient),
@@ -58,7 +62,7 @@ write_home_page <- function(x, path, tags = character(), ingredients = character
   )
 
   # Show 10 most recently added cocktails
-  x <- rev(tail(x, 10))
+  x <- rev(utils::tail(x, 10))
   cocktails <- map(x, html_cocktail, tags = tags, ingredients = ingredients)
 
   blocks <- list(heading, nav, cocktails)

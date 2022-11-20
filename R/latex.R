@@ -1,5 +1,7 @@
-
+#' Format cocktail as markdown
+#'
 #' @export
+#' @keywords internal
 md_cocktail <- function(cocktail) {
   ingredients <- map_chr(cocktail$ingredients, md_ingredient, title = cocktail$title)
 

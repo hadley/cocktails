@@ -1,3 +1,6 @@
 ^cocktails\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
+^\.github$
+^docs$
+^book$

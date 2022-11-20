@@ -14,7 +14,7 @@ slug <- function(x) {
 }
 
 stop_invalid <- function(x) {
-  abort(c("Ill-formed ingredient", capture.output(str(x))))
+  abort(c("Ill-formed ingredient", utils::capture.output(utils::str(x))))
 }
 html_escape <- function(x) htmltools::htmlEscape(x)
 HTML <- function(...) htmltools::HTML(paste0(...))
