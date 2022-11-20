@@ -33,10 +33,10 @@ jobs:
           install.packages(".", repos = NULL, type = "source")
           cocktails::build_site()
 
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: ./docs
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./docs
 
   deploy:
     needs: render
