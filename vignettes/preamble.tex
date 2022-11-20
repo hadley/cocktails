@@ -20,17 +20,9 @@
 % Table of contents ---------------------------------------
 
 \usepackage{tocloft}
-
-% Failed experiment listing cocktail names in TOC
-% \cftsetindents{sec}{1em}{1.5em}         % decrease indent
-% \renewcommand{\cfttoctitlefont}{\Large\mychapterfont}
-% \setlength{\cftbeforetoctitleskip}{0pt} % decrease spacing around TOC title
-% \setlength{\cftaftertoctitleskip}{12pt}
-%
-% \cftpagenumbersoff{section}             % don't show page numbers for cocktails
-% \renewcommand{\cftsecfont}{\small}      % make cocktail names smaller
-
-\tocloftpagestyle{empty}                % suppress page number (only works on first page)
+\setlength{\cftbeforetoctitleskip}{0pt} % decrease spacing around TOC title
+\renewcommand{\cfttoctitlefont}{\Large\mychapterfont} % match chapter style
+\tocloftpagestyle{empty} % suppress page number (only works on first page)
 
 % titles --------------------------------------------------
 % https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/titlesec/titlesec.pdf
@@ -54,7 +46,7 @@
   endpenalty=10000
 }
 
-\usepackage{makeidx}
+\usepackage{imakeidx}
 % https://ctan.math.washington.edu/tex-archive/macros/latex/contrib/idxlayout/idxlayout.pdf
 \usepackage[
   indentunit=5pt,         % decrease hanging indent
@@ -62,4 +54,5 @@
   justific=raggedright,   % don't justify
   totoc=true
 ]{idxlayout}
-\makeindex
+\makeindex[title=By ingredient]
+\makeindex[name=names,title=By name]

@@ -46,14 +46,15 @@ show_cocktail <- function(cocktail) {
 # Introduction
 
 \RaggedRight
-The cocktails in this book are presented without instructions --- you need to figure out whether to shake or stir, based on the ingredients! Fortunately, this is simple: if the drink contains citrus (or pineapple), shake it, otherwise stir it.
+The cocktails in this book are presented without instructions --- you need to figure out whether to shake or stir, based on the ingredients! Fortunately, this is simple: if the drink contains citrus or pineapple, shake it, otherwise stir it. If you choose to include an egg white, we suggest the reverse shake: shake all the ingredients with ice, strain, and then shake again without ice.
 
-The cocktails are organised by primary spirit, and within each spirit from lighter to stronger. The choice of glassware is up to you. If it contains champagne, serve it in a flute; if it contains soda water, serve it in a tall (Collins) glass. Otherwise, lighter drinks are generally served up, and stronger drinks are served down. Particularly spirit heavy drinks benefit from being served on the rocks so that ice will mellow the cocktail as you drink it. 
+The cocktails are organised by primary spirit, and within each spirit from lighter to stronger. The choice of glassware is up to you. In genera, if it contains champagne, serve it in a flute; if it contains soda water, serve it in a tall (Collins) glass. Otherwise, lighter drinks are generally served up, and stronger drinks are served down. Particularly spirit forward drinks benefit from being served on ice so the drink mellows as the ice melts. 
 
-A few specific ingredient recommendations:
+To make simple syrup, combine equal parts by weight sugar and water, and either mix in a blender or gently warm in a pot over low heat. For orange liqueur we recommend Pierre Ferrand's Dry Curaçao and for banana liqueur we recommend Giffard's Banane du Brésil.
 
-* Orange liqueur: Pierre Ferrand's Dry Curaçao
-* Banana liqueur: Giffard's Banane du Brésil
+Salud!
+
+Hadley & Jeff
 
 # Champagne
 
@@ -87,7 +88,7 @@ show_cocktails("tequila")
 show_cocktails("mezcal")
 ```
 
-# Brandy
+# Brandy/Cognac
 
 ```{r}
 #| echo: false
@@ -103,7 +104,7 @@ show_cocktails("brandy")
 show_cocktails("rum")
 ```
 
-# Rye
+# Bourbon/Rye
 
 ```{r}
 #| echo: false
@@ -120,6 +121,6 @@ show_cocktails("scotch")
 ```
 
 \cleardoublepage
-\addcontentsline{toc}{chapter}{Index}
 \myindexfont
 \printindex
+\printindex[names]

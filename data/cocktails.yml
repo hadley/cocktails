@@ -39,7 +39,7 @@
   - pastis rinse
   - [1, gin, plymouth]
   - [0.75, Lillet blanc]
-  - [0.75, orange liqueur, Cointreau]
+  - [0.75, orange liqueur]
   - [0.75, lemon juice]
   - [0.25, simple syrup]
   source: https://punchdrink.com/recipes/alicia-perrys-corpse-reviver-no-2/
@@ -101,7 +101,7 @@
   ingredients:
   - [1.5, bourbon]
   - [0.5, ramazotti]
-  - [0.25, creme de cassis]
+  - [0.25, créme de cassis]
   - 1 dash orange bitters
 
 - title: Art of the choke
@@ -121,7 +121,7 @@
   - [1.5, rye]
   - [0.75, dry vermouth]
   - [0.75, Campari]
-  - [0.25, creme de cacao]
+  - [0.25, créme de cacao]
   - lemon peel
   source: https://punchdrink.com/recipes/all-in/
 
@@ -132,12 +132,12 @@
   - [0.75, maple syrup]
   - [1, lemon juice]
   - [0.5, pear liqueur]
-  - egg white
+  - egg white (optional)
 
 - title: Bon vivants
   tags: [sour]
   ingredients:
-  - [1.5, orange liqueur, royal combier]
+  - [1.5, orange liqueur]
   - [0.75, fernet]
   - [1, lemon juice]
   - [0.5, ginger syrup]
@@ -179,7 +179,7 @@
   ingredients:
   - [1, ramazotti]
   - [1, nonino amaro]
-  - [0.75, orange liqueur, Grand Marnier]
+  - [0.75, orange liqueur]
   - [1 t, fernet]
 
 - title: BBD
@@ -196,7 +196,7 @@
   - [2, Cynar]
   - [0.5, honey syrup]
   - [0.5, lemon juice]
-  - 1 egg white
+  - egg white (optional)
   - bitters
 
 - title: Bramble
@@ -244,8 +244,8 @@
 
 - title: Colonel Carpano
   ingredients:
-  - [1.5, Cynar]
   - [1.5, bourbon]
+  - [1.5, Cynar]
   - [0.75, sweet vermouth]
   - [2 dashes, Peychaud's]
   - orange twist
@@ -254,7 +254,7 @@
 - title: Campari Alexander
   ingredients:
   - [2, Campari]
-  - [1, creme de cacao]
+  - [1, créme de cacao]
   - [1, cream]
 
 - title: Campari sour
@@ -263,16 +263,16 @@
   - [1.5, Campari]
   - [1, lemon juice]
   - [0.5, simple syrup]
-  - 1 egg white
+  - egg white (optional)
   - garnish with orange bitters
 
-- title: Clover club
+- title: Gin daisy
   tags: [sour]
   ingredients:
   - [2, gin]
   - [1, Grenadine]
   - [0.75, lemon juice]
-  - 1 egg white (optional)
+  - egg white (optional)
 
 - title: Cynar Toronto
   tags: [manhattan]
@@ -295,7 +295,7 @@
   - [1, lemon juice]
   - [0.25, cherry liqueur]
   - [0.25, simple syrup]
-  - 1 egg white
+  - egg white (optional)
 
 - title: Coffeed negroni
   tags: [negroni]
@@ -318,7 +318,7 @@
   ingredients:
   - [1, Campari]
   - [1, ginger liqueur]
-  - [1, orange liqueur, Contreau]
+  - [1, orange liqueur]
   - [1, lemon juice]
   - [2 dashes, Peychaud's]
 
@@ -500,9 +500,9 @@
   ingredients:
   - [2, rum, blended aged]
   - [0.75, lime juice]
-  - [0.25, simple syrup, Mai Tai]
+  - [0.25, simple syrup]
   - [0.25, orgeat]
-  - [0.5, orange liqueur, curaçao]
+  - [0.5, orange liqueur]
   source: Smuggler's cove
 
 - title: Old fashioned
@@ -588,7 +588,7 @@
   tags: [tiki, 3 star]
   source: Smuggler's cove
   ingredients:
-  - [1, orange liqueur, curaçao]
+  - [1, orange liqueur]
   - [1, rum, blended aged]
   - [1, sweet cream]
   notes: >
@@ -607,8 +607,9 @@
   tags: [sazerac]
   ingredients:
   - absinthe rinse
-  - [2, rye]
-  - [1 t, simple syrup, gomme]
+  - [1, rye]
+  - [1, brandy]
+  - [1 t, simple syrup]
   - [3 dashes, Peychaud's]
   - [1 dash, Angostura]
   - lemon twist
@@ -650,16 +651,16 @@
   - [0.5, lemon juice]
   - [0.25, Campari]
   - [0.25, simple syrup]
-  - egg white
+  - egg white (optional)
   - soda water
 
 - title: Smoky negroni
   tags: [negroni]
   ingredients:
-  - [1.5, mezcal]
-  - [1.5, sweet vermouth]
-  - [1, Campari]
-  - [0.5, Ancho Reyes]
+  - [1, mezcal]
+  - [1, sweet vermouth]
+  - [0.75, Campari]
+  - [0.25, Ancho Reyes]
 
 - title: Spanish coffee
   ingredients:
@@ -677,9 +678,9 @@
 - title: Kingston negroni
   tags: [negroni]
   ingredients:
-  - [1.5, rum, Smith & Cross]
-  - [1.5, Campari]
-  - [1.5, sweet vermouth]
+  - [1, rum, Smith & Cross]
+  - [1, Campari]
+  - [1, sweet vermouth]
 
 - title: Penicillin
   tags: [sour]
@@ -740,11 +741,11 @@
 - title: Whiskey sour
   tags: [sour]
   ingredients:
-  - [3, rye]
-  - [1, simple syrup]
-  - [1, lemon juice]
-  - [0.5, lime juice]
-  - egg white
+  - [2, rye]
+  - [0.75, simple syrup]
+  - [0.5, lemon juice]
+  - [0.25, lime juice]
+  - egg white (optional)
 
 - title: Warsaw lady
   ingredients:
@@ -757,7 +758,7 @@
   ingredients:
   - [1, espresso]
   - [2, Cynar]
-  - [0.75, creme de cassis]
+  - [0.75, créme de cassis]
   source: https://kindredcocktails.com/cocktail/un-cafe-va-bene
 
 - title: Winter sazerac
@@ -814,7 +815,7 @@
   tags: [bubbles]
   ingredients:
   - [4, champagne]
-  - [0.5, creme de cassis]
+  - [0.5, créme de cassis]
 
 - title: Mezcaletti
   ingredients:
@@ -851,7 +852,7 @@
 - title: Alexander
   ingredients:
   - [1, brandy]
-  - [1, creme de cacao]
+  - [1, créme de cacao]
   - [2, cream]
   - freshly grated nutmeg
   source: The new craft of the cocktail
@@ -975,11 +976,11 @@
 - title: New York sour
   tags: [sour]
   ingredients:
-  - [1.5, rye]
+  - [2, rye]
   - [0.75, lemon juice]
   - [0.75, simple syrup]
+  - "float over:"
   - [0.75, red wine, dry]
-  notes: float red wine
   source: Speakeasy
 
 - title: Hemingway daiquiri
@@ -1022,7 +1023,7 @@
   ingredients:
   - [1.25, sherry, fino]
   - [1.25, Cynar]
-  - [0.75, gin, Beefeater]
+  - [0.75, gin]
 
 - title: Hawaiian sunset
   tags: [tiki]
@@ -1042,7 +1043,7 @@
   - [0.5, soda water]
   - [0.5, cherry liqueur]
   - [0.5, Velvet Falernum]
-  - [0.25, orange liqueur, dry curaçao]
+  - [0.25, orange liqueur]
   - [1.5, rum, blended lightly aged]
 
 - title: Tiki bowl
@@ -1073,10 +1074,10 @@
   source: Smuggler's Cove
   ingredients:
   - [2, pineapple juice]
+  - [1.5, rum, black blended]
+  - [0.75, Campari]
   - [0.5, lime juice]
   - [0.5, simple syrup, demerera]
-  - [0.75, Campari]
-  - [1.5, rum, black blended]
 
 - title: Golden gun
   tags: [tiki]
@@ -1159,28 +1160,28 @@
   tags: [tiki, 3 star]
   source: Smuggler's Cove
   ingredients:
+  - [2, gin]
   - [0.75, lemon juice]
   - [0.75, pineapple juice]
   - [0.5, orgeat]
-  - [2, gin]
   - [2 dashes, Peychaud's]
 
 - title: Rum flip
   tags: [tiki, flip]
   source: Smuggler's Cove
   ingredients:
-  - [1, egg]
-  - [0.25, simple syrup, demerera]
   - [2, rum, blended aged]
+  - 1 egg
+  - [0.25, simple syrup, demerera]
 
 - title: Mary Pickford
   tags: [tiki]
   source: Smuggler's Cove
   ingredients:
+  - [1.5, rum, lightly blended aged]
   - [1.5, pineapple juice]
   - [1 t, Grenadine]
   - [6 drops, maraschino liqueur]
-  - [1.5, rum, lightly blended aged]
 
 - title: Twelve mile limit
   tags: [tiki]
@@ -1226,7 +1227,7 @@
   ingredients:
   - [0.75, lemon juice]
   - [0.5, simple syrup]
-  - [0.5, orange liqueur, dry curaçao]
+  - [0.5, orange liqueur]
   - [1.5, rum, Smith & Cross]
   - [0.75, Madeira]
   - [1 dash, Angostura]
@@ -1274,7 +1275,7 @@
 
 - title: Pegu club
   ingredients:
-  - [2, gin, London dry]
+  - [2, gin]
   - [0.75, orange liqueur]
   - [0.75, lime juice]
   - [1 dash, Angostura]
@@ -1344,7 +1345,7 @@
 - title: Banana Manhattan
   ingredients:
   - [1.5, rum, aged]
-  - [1.5, sweet vermouth]
+  - [0.5, sweet vermouth]
   - [0.5, banana liqueur]
   - [1 dash, absinthe]
 

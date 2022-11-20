@@ -1,11 +1,11 @@
 
 #' @export
 md_cocktail <- function(cocktail) {
-  title <- paste0("## ", cocktail$title)
   ingredients <- map_chr(cocktail$ingredients, md_ingredient, title = cocktail$title)
 
   paste0(
-    title, "\n",
+    "## ", cocktail$title, " \\index[names]{", cocktail$title, "}\n",
+    "\n",
     paste0("* ", ingredients, "\n", collapse = ""),
     "\n"
   )
