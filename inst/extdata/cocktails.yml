@@ -82,9 +82,8 @@
   tags: [sour]
   ingredients:
   - [2, gin]
-  - [0.75, maraschino liqueur]
+  - [0.5, maraschino liqueur]
   - [0.5, lemon juice]
-  - [0.5, simple syrup]
   - [0.25, violet liqueur]
   - garnish with Angostura bitters
 
@@ -148,7 +147,6 @@
   - [1, rye]
   - [1, brandy]
   - [0.5, banana liqueur]
-  - [1 t, simple syrup]
   - [1 dash, Angostura]
 
 - title: Blood orange margarita
@@ -1280,6 +1278,7 @@
   - [0.75, lime juice]
   - [1 dash, Angostura]
   - [1 dash, orange bitters]
+  - [1 t, simple syrup]
 
 - title: Tom Collins
   ingredients:
@@ -1306,9 +1305,8 @@
   tags: [fizz]
   ingredients:
   - [2, tequila]
-  - [1, orange liqueur]
   - [1, lime juice]
-  - [2, soda water]
+  - [4, soda water]
 
 - title: Reverse Manhattan
   ingredients:
