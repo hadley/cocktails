@@ -66,6 +66,10 @@ Salud!
 
 Hadley & Jeff
 
+```{=tex}
+\hspace*{\fill} {\small --- 2023-03-05}
+```
+
 # Champagne
 
 ```{r}
