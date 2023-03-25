@@ -12,7 +12,9 @@ preview_site <- function() {
 build_site <- function(dir = "docs") {
   dir.create(dir, showWarnings = FALSE)
   file.create("docs/.nojekyll")
+  writeLines("cocktails.hadley.nz", "docs/CNAME")
   file.copy(system.file("templates/cocktails.css", package = "cocktails"), dir, overwrite = TRUE)
+
 
   tags <- sort(at_least(unlist(map(cocktails, ~ .x$tags)), 2))
   ingredients <- sort(at_least(unlist(map(cocktails, ingredients)), 2))
