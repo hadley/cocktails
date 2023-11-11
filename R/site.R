@@ -1,5 +1,5 @@
+#' @export
 preview_site <- function() {
-  build_site()
   if (is.null(getOption("cocktails_server"))) {
     options(cocktails_server = servr::httw(system.file("docs", package = "cocktails")))
   }
@@ -45,6 +45,14 @@ build_site <- function(dir = "docs") {
       title = first_upper(ingredient)
     )
   }
+
+  url <- getOption("cocktails_server")$url
+  if (!is.null(url)) {
+    cli::cli_alert_success("Preview at {.url {url}}")
+  } else {
+    cli::cli_alert_success("To preview, run {.run cocktails::preview_site()}")
+  }
+
 }
 
 write_home_page <- function(x, path, tags = character(), ingredients = character()) {

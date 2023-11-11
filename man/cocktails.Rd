@@ -5,7 +5,7 @@
 \alias{cocktails}
 \title{Cocktails data}
 \format{
-An object of class \code{list} of length 156.
+An object of class \code{list} of length 159.
 }
 \usage{
 cocktails

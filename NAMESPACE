@@ -3,5 +3,6 @@
 export(build_site)
 export(cocktails)
 export(md_cocktail)
+export(preview_site)
 import(rlang)
 importFrom(glue,glue)
