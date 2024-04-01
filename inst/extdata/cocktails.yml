@@ -8,7 +8,7 @@
   source: https://punchdrink.com/recipes/yellow-parrot/
   notes: serve with ice
 
-- title: Harry's matador
+- title: "Harry's matador"
   ingredients:
   - [2, tequila, reposodo]
   - [0.75, blanc vermouth]
@@ -26,14 +26,14 @@
   notes: "original uses split vermouth: Dolin rouge + Carpano Antica"
   source: https://punchdrink.com/recipes/americano-perfecto
 
-- title: La Sirena Clandestina's amaro cocktail
+- title: "La Sirena Clandestina's amaro cocktail"
   ingredients:
   - [1.5, Cynar]
   - [1, nocino]
   - [0.5, cachaca, barrel aged]
   source: https://imbibemagazine.com/recipe/la-sirena-clandestinas-amaro-cocktail/
 
-- title: Alicia Perry's corpse reviver no. 2
+- title: "Alicia Perry's corpse reviver no. 2"
   tags: [sour]
   ingredients:
   - pastis rinse
@@ -44,7 +44,7 @@
   - [0.25, simple syrup]
   source: https://punchdrink.com/recipes/alicia-perrys-corpse-reviver-no-2/
 
-- title: Bee's knees
+- title: "Bee's knees"
   tags: [sour]
   ingredients:
   - [2, gin]
@@ -66,7 +66,7 @@
   - [0.75, strega]
   - [0.5, orange liqueur]
   - [0.75, lemon juice]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
   - 3 cherries
 
 - title: A-go flip
@@ -95,7 +95,7 @@
   - [0.25, falernum]
   - 2 dashes bitters
 
-- title: Angel's share
+- title: "Angel's share"
   tags: [manhattan]
   ingredients:
   - [1.5, bourbon]
@@ -245,7 +245,7 @@
   - [1.5, bourbon]
   - [1.5, Cynar]
   - [0.75, sweet vermouth]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
   - orange twist
   source: https://kindredcocktails.com/cocktail/colonel-carpano
 
@@ -318,7 +318,7 @@
   - [1, ginger liqueur]
   - [1, orange liqueur]
   - [1, lemon juice]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
 
 - title: Daiquiri
   tags: [sour, daiquiri]
@@ -343,14 +343,14 @@
   - flamed orange twist
 
 - title: El Presidente
-  source: Smuggler's cove
+  source: "Smuggler's cove"
   ingredients:
   - [1.5, rum, blended lightly aged]
   - [0.75, dry vermouth]
   - [0.5, orange liqueur]
   - [0.5, Grenadine]
 
-- title: Eeyore's requieum
+- title: "Eeyore's requieum"
   ingredients:
   - [1.5, Campari]
   - [1, dry vermouth]
@@ -401,7 +401,7 @@
 
 - title: Hotel Nacional
   tags: [sour, daiquiri, tiki, 3 star]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [3 chunks, pineapple]
   - [0.75, lime juice]
@@ -501,7 +501,7 @@
   - [0.25, simple syrup]
   - [0.25, orgeat]
   - [0.5, orange liqueur]
-  source: Smuggler's cove
+  source: "Smuggler's cove"
 
 - title: Old fashioned
   ingredients:
@@ -557,19 +557,19 @@
   - [0.75, simple syrup]
   - soda water
 
-- title: Pimm's cup
+- title: "Pimm's cup"
   tags: [fizz]
   ingredients:
   - 1 cm cucumber
   - 1 cm lime
   - 1 cm orange
   - [0.25, simple syrup]
-  - [2, Pimm's]
+  - [2, "Pimm's"]
   - soda water
 
-- title: Pirate's revenge
+- title: "Pirate's revenge"
   ingredients:
-  - [0.75, Pimm's]
+  - [0.75, "Pimm's"]
   - [0.75, elderflower liqueur]
   - [0.75, lemon juice]
   - [0.75, rum]
@@ -584,7 +584,7 @@
 
 - title: Parisian blonde
   tags: [tiki, 3 star]
-  source: Smuggler's cove
+  source: "Smuggler's cove"
   ingredients:
   - [1, orange liqueur]
   - [1, rum, blended aged]
@@ -592,7 +592,7 @@
   notes: >
     Make sweet cream with 6 oz cream + 1 oz simple syrup, and float on cocktail.
 
-- title: Planter's punch
+- title: "Planter's punch"
   tags: [tiki, 3 star]
   ingredients:
   - [3, rum, blended aged]
@@ -608,7 +608,7 @@
   - [1, rye]
   - [1, brandy]
   - [1 t, simple syrup]
-  - [3 dashes, Peychaud's]
+  - [3 dashes, "Peychaud's"]
   - [1 dash, Angostura]
   - lemon twist
 
@@ -630,7 +630,7 @@
   - [0.5, lime juice]
   - [0.5, simple syrup]
   - [14 dashes, Angostura]
-  - [7 dashes, Peychaud's]
+  - [7 dashes, "Peychaud's"]
   - [7 dashes, orange bitters]
 
 - title: Sidecar
@@ -696,7 +696,7 @@
   - [1, rum]
   - [0.75, Averna]
   - [0.5, mezcal]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
   - orange twist
 
 - title: Trinidad sour
@@ -734,7 +734,7 @@
   - [1, lemon juice]
   - [1.5, coconut cream]
   notes: float coconut cream
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
 
 - title: Whiskey sour
   tags: [sour]
@@ -767,7 +767,7 @@
   - [1, brandy]
   - [0.5, simple syrup]
   - [2 dashes, Angostura]
-  - [7 dashes, Peychaud's]
+  - [7 dashes, "Peychaud's"]
   - lemon peel
 
 - title: Vieux Ananas
@@ -884,7 +884,7 @@
   - flamed orange zest coin
   source: The new craft of the cocktail
 
-- title: Bee's kiss
+- title: "Bee's kiss"
   ingredients:
   - [1.5, rum, lightly aged blended]
   - [1, cream]
@@ -993,7 +993,7 @@
 
 - title: Aku aku
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [5 chunks, pineapple]
   - [8 leaves, mint]
@@ -1002,9 +1002,9 @@
   - [0.5, peach liqueur]
   - [1.5, rum, blended lightly aged]
 
-- title: Don's own grog
+- title: "Don's own grog"
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.75, lime juice]
   - [0.25, simple syrup, demerera]
@@ -1025,7 +1025,7 @@
 
 - title: Hawaiian sunset
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.5, lime juice]
   - [0.5, lemon juice]
@@ -1035,7 +1035,7 @@
 
 - title: Merciless Virgin
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.75, lemon juice]
   - [0.5, soda water]
@@ -1046,7 +1046,7 @@
 
 - title: Tiki bowl
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1.5, orange juice]
   - [0.75, lime juice]
@@ -1059,7 +1059,7 @@
 
 - title: Tradewinds
   tags: [tiki, 3 star]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1, lemon juice]
   - [1.5, coconut cream]
@@ -1069,7 +1069,7 @@
 
 - title: Jungle bird
   tags: [tiki, 3 star]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [2, pineapple juice]
   - [1.5, rum, black blended]
@@ -1079,7 +1079,7 @@
 
 - title: Golden gun
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.75, lime juice]
   - [0.5, grapefruit juice]
@@ -1091,7 +1091,7 @@
 
 - title: Hinky dinks fizzy
   tags: [tiki, bubbles]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [2, champagne]
   - [1.5, pineapple juice]
@@ -1103,7 +1103,7 @@
 
 - title: The twenty seventy swizzle
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.5, lime juice]
   - [0.5, simple syrup, demerera]
@@ -1116,7 +1116,7 @@
 
 - title: Chartreuse swizzle
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1, pineapple juice]
   - [0.75, lime juice]
@@ -1125,7 +1125,7 @@
 
 - title: Swizzle Français
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.5, lime juice]
   - [0.5, simple syrup, sugarcane]
@@ -1135,7 +1135,7 @@
 
 - title: Kaiteur swizzle
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.75, lime juice]
   - [0.5, maple syrup]
@@ -1145,7 +1145,7 @@
 
 - title: Falinium
   tags: [tiki, fizz]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1, lemon juice]
   - [1, coconut cream]
@@ -1154,19 +1154,19 @@
   - [2, rum, column still aged]
   - [1 dash, orange bitters]
 
-- title: Humuhumunukunukpua'a
+- title: "Humuhumunukunukpua'a"
   tags: [tiki, 3 star]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [2, gin]
   - [0.75, lemon juice]
   - [0.75, pineapple juice]
   - [0.5, orgeat]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
 
 - title: Rum flip
   tags: [tiki, flip]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [2, rum, blended aged]
   - 1 egg
@@ -1174,7 +1174,7 @@
 
 - title: Mary Pickford
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1.5, rum, lightly blended aged]
   - [1.5, pineapple juice]
@@ -1183,7 +1183,7 @@
 
 - title: Twelve mile limit
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1, rum, blended lightly aged]
   - [0.5, rye]
@@ -1191,9 +1191,9 @@
   - [0.5, lemon juice]
   - [0.5, Grenadine]
 
-- title: Ti' punch
+- title: "Ti' punch"
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1 t, simple syrup, sugarcane]
   - [2, rhum agricole, blanc]
@@ -1201,7 +1201,7 @@
 
 - title: Barbados rum punch
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [2, rum, blended aged]
   - [1, lime juice]
@@ -1210,7 +1210,7 @@
 
 - title: Jamaican milk punch
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [1, milk]
   - [1, cream]
@@ -1221,7 +1221,7 @@
 
 - title: A wish for Grace
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.75, lemon juice]
   - [0.5, simple syrup]
@@ -1232,7 +1232,7 @@
 
 - title: Abricot vieux
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [0.5, apricot liqueur]
   - [2, rhum agricole, vieux]
@@ -1241,7 +1241,7 @@
 
 - title: The mastodon
   tags: [tiki, 3 star]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [3, pineapple juice]
   - [0.5, lime juice]
@@ -1250,11 +1250,11 @@
   - [0.5, maraschino liqueur]
   - [1.5, rum, blended aged]
   - [1.5, bourbon]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
 
 - title: Piñata
   tags: [tiki]
-  source: Smuggler's Cove
+  source: "Smuggler's Cove"
   ingredients:
   - [3, pineapple juice]
   - [1, lemon juice]
@@ -1360,7 +1360,7 @@
   - [0.75, brandy]
   - [0.5, maraschino liqueur]
   - [1, sweet vermouth]
-  - [2 dashes, Peychaud's]
+  - [2 dashes, "Peychaud's"]
 
 - title: Ampersand
   ingredients:
@@ -1370,7 +1370,7 @@
   - [2 dashes, orange bitters]
   source: https://www.seriouseats.com/ampersand-historical-cocktail-cognac-old-tom-gin-drink-recipe
 
-- title: Widow’s Kiss
+- title: "Widow’s Kiss"
   ingredients:
   - [1, apple brandy]
   - [1, brandy]
@@ -1384,3 +1384,10 @@
   - [0.75, yellow Chartreuse]
   - [0.75, Aperol]
   - [0.75, lime juice]
+
+- title: Chestnut cup
+  ingredients:
+  - [1, gin]
+  - [1, Campari]
+  - [1, lemon]
+  - [0.75, orgeat]
