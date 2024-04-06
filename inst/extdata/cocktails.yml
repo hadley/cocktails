@@ -1391,3 +1391,11 @@
   - [1, Campari]
   - [1, lemon]
   - [0.75, orgeat]
+
+- title: The Pantomimist
+  ingredients:
+  - [1, bourbon]
+  - [1, Campari]
+  - [0.5, mezcal]
+  - [0.5, creme de cacao]
+  tag: [negroni]
