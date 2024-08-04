@@ -1399,3 +1399,10 @@
   - [0.5, mezcal]
   - [0.5, creme de cacao]
   tag: [negroni]
+
+- title: Marianito
+  ingredients:
+  - [2, sweet vermouth]
+  - [0.5, orange liqueur, Curaçao]
+  - [0.5, rum, agricole rhum]
+  - [3 dashes, Angostura]
