@@ -1,21 +1,21 @@
 Package: cocktails
 Title: Hadley's cocktail book
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
     person("Hadley", "Wickham", , "hadley@rstudio.com", role = c("aut", "cre"))
 Description: Hadley's cocktails and the R code needed to turn them into a
     website.
-License: MIT + file LICENSE
+License: MIT
 URL: https://github.com/hadley/cocktails
 BugReports: https://github.com/hadley/cocktails/issues
-Imports: 
+Imports:
     glue,
     htmltools,
     httr,
     rlang,
     whisker,
     yaml
-Suggests: 
+Suggests:
     servr
 Encoding: UTF-8
 LazyData: true
